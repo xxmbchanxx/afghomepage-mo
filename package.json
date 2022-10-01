@@ -1,0 +1,14 @@
+{
+  "name": "afg.kr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "DiyLecko <diy_lecko@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "@fastify/static": "^6.5.0",
+    "ejs": "^3.1.8",
+    "fastify": "^4.7.0",
+    "point-of-view": "^6.3.0"
+  }
+}

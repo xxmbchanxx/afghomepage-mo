@@ -1,0 +1,352 @@
+#studio-wrap {
+  background-color: #000;
+}
+
+#studio-wrap .sec01 .sec01-bg-wrap {
+  width: 100%;
+  height: 61.111vw;
+  background: url("../img/mo-studio-sec1-bg.png") no-repeat 50% center/cover;
+  margin-bottom: 19.444vw;
+}
+
+#studio-wrap .sec02 .title-wrap {
+  color: #fff;
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 8.333vw;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 8.333vw;
+}
+
+#studio-wrap .sec02 .title-wrap::after {
+  content: "";
+  display: block;
+  width: 6.667vw;
+  height: 5.556vw;
+  background: url("../img/mo-sub-title-icon-white.png") no-repeat 50% center/cover;
+  position: absolute;
+  top: 0;
+  right: -8.333vw;
+}
+
+#studio-wrap .sec02 .map-wrap {
+  width: 100%;
+  margin-bottom: 5.556vw;
+}
+
+#studio-wrap .sec02 .map-wrap>.root_daum_roughmap {
+  width: 100%;
+  height: 69.444vw;
+}
+
+#studio-wrap .sec02 .map-wrap>.root_daum_roughmap .wrap_map {
+  height: 100%;
+}
+
+#studio-wrap .sec02 .map-wrap>.root_daum_roughmap .wrap_controllers {
+  display: none;
+}
+
+#studio-wrap .sec02 .map-title-wrap {
+  margin-bottom: 22.222vw;
+}
+
+#studio-wrap .sec02 .map-title-wrap .title-info {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 5vw;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 8.333vw;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap {
+  margin-bottom: 8.333vw;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap dl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap dl:not(:last-child) {
+  margin-bottom: 4.444vw;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap dl dt {
+  position: relative;
+  padding-right: 2.778vw;
+  margin-right: 2.778vw;
+  font-size: 5vw;
+  font-weight: 400;
+  color: #fff;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap dl dt::after {
+  content: "";
+  display: block;
+  width: .278vw;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #fff;
+}
+
+#studio-wrap .sec02 .map-title-wrap .dl-wrap dl dd {
+  font-size: 5vw;
+  font-weight: 400;
+  color: #fff;
+}
+
+#studio-wrap .sec02 .map-title-wrap .help-msg {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 6.111vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .overflow-wrap {
+  margin-left: 5.556vw;
+  overflow-x: scroll;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .overflow-wrap::-webkit-scrollbar {
+  height: .278vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .overflow-wrap::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0);
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .overflow-wrap::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0);
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .tab-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 130.556vw;
+  padding-bottom: 2.778vw;
+  margin-bottom: 2.778vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .tab-box li:not(:last-child) {
+  margin-right: 8.333vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .tab-box li.on a {
+  color: #fff;
+  position: relative;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .tab-box li.on a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: .278vw;
+  background-color: #fff;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .tab-box li a {
+  color: #666;
+  font-family: "Kumbh Sans",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 5vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap {
+  margin-bottom: 22.222vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul {
+  border-bottom: .278vw solid #fff;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li {
+  border-top: .278vw solid #fff;
+  padding: 11.111vw 0;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li h6 {
+  color: #fff;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 6.111vw;
+  text-transform: uppercase;
+  margin-bottom: 5.556vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li dl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 2.778vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li dl dt {
+  padding-right: 1.667vw;
+  margin-right: 1.667vw;
+  font-weight: 400;
+  font-size: 4.167vw;
+  color: #fff;
+  position: relative;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li dl dt::after {
+  content: "";
+  display: block;
+  width: .278vw;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #c4c4c4;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li dl dd {
+  font-family: "Kumbh Sans",sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3.611vw;
+  color: #ccc;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li p {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 500;
+  font-size: 4.167vw;
+  line-height: 1.65;
+  color: #ccc;
+  margin-bottom: 8.333vw;
+}
+
+#studio-wrap .sec03 .sec03-studio-wrap .sec03-tab-content-wrap ul li a {
+  font-weight: 500;
+  font-size: 5vw;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#studio-wrap .sec04 {
+  padding-bottom: 22.222vw;
+}
+
+#studio-wrap .sec04 .title-wrap {
+  margin-bottom: 11.111vw;
+}
+
+#studio-wrap .sec04 .title-wrap h6 {
+  margin-bottom: 5.556vw;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 8.889vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#studio-wrap .sec04 .title-wrap span {
+  font-size: 5vw;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #fff;
+}
+
+#studio-wrap .sec04 .scroll-slide-box {
+  width: 100%;
+  height: auto;
+  padding: 30px 100px 30px 0;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box.swiper-scrollbar {
+  background-color: #fff;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box .swiper-slide:not(:last-child) {
+  margin-right: 27.778vw;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box .swiper-slide.w150 {
+  width: 41.667vw;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box .swiper-slide.w240 {
+  width: 66.667vw;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 4.167vw;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .scroll-box .swiper-slide p {
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 3.056vw;
+  text-align: right;
+  font-weight: 400;
+  color: #666;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .swiper-scrollbar {
+  background-color: rgba(255,255,255,.2);
+  height: 2px;
+  max-width: 1730px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+#studio-wrap .sec04 .scroll-slide-box .swiper-scrollbar .swiper-scrollbar-drag {
+  background-color: #fff;
+}

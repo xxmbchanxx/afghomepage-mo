@@ -1,0 +1,181 @@
+header {
+  width: 100%;
+  height: 16.667vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+header.fixed {
+  background: rgba(255,255,255,.3);
+  backdrop-filter: blur(15px);
+  border-bottom: .278vw solid #ccc;
+}
+
+header .inner {
+  position: relative;
+}
+
+header .inner #logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+header .inner #logo h1 {
+  display: block;
+  width: 35.833vw;
+  height: 6.389vw;
+  background: url("../img/mo-logo.png") no-repeat center/cover;
+}
+
+header .inner .menu .menu-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 8.889vw;
+  height: 2.5vw;
+  cursor: pointer;
+  z-index: 99;
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+header .inner .menu .menu-btn span {
+  display: block;
+  width: 100%;
+  height: .556vw;
+  background-color: #161616;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+header .inner .menu .menu-btn span:first-child {
+  top: 0;
+}
+
+header .inner .menu .menu-btn span:last-child {
+  bottom: 0;
+}
+
+header .inner .menu #gnb {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  background: url("../img/mo-gnb-bg.png") no-repeat right 23% center/cover;
+  display: none;
+}
+
+header .inner .menu #gnb ul {
+  position: absolute;
+  top: -webkit-calc(50% + 8.333vw);
+  top: -moz-calc(50% + 8.333vw);
+  top: calc(50% + 8.333vw);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 13.889vw;
+}
+
+header .inner .menu #gnb ul li {
+  margin-bottom: 8.333vw;
+}
+
+header .inner .menu #gnb ul li:last-child {
+  margin-bottom: 0;
+}
+
+header .inner .menu #gnb ul li a {
+  display: inline-block;
+  font-family: "Noto Sans KR",sans-serif;
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+header .inner .menu #gnb ul li a span {
+  display: block;
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 4.167vw;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  opacity: .5;
+  position: absolute;
+  left: -8.333vw;
+  top: .833vw;
+}
+
+header .inner .menu #gnb ul li a:hover::after {
+  width: 100%;
+}
+
+header.on {
+  mix-blend-mode: unset;
+}
+
+header.on .inner #logo h1 {
+  background: url("../img/mo-logo-on.png") no-repeat center/cover;
+}
+
+header.on .inner .menu .menu-btn span {
+  background-color: #fff;
+  top: 50%;
+  bottom: unset;
+}
+
+header.on .inner .menu .menu-btn span:first-child {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+header.on .inner .menu .menu-btn span:last-child {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  -moz-transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+header.sub-header .inner #logo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+header.sub-header .inner .menu .menu-btn span {
+  background-color: #fff;
+}
+
+header.sub-header.fixed {
+  background: rgba(0,0,0,.3);
+}
+
+header.sub-header.on .inner #logo h1 {
+  background: url("../img/logo.png") no-repeat center/cover;
+}

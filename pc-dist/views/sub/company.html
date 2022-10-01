@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="ko" xml:lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="title">
+  <meta name="copyright" content="Copyright ⓒ authentic">
+  <meta name="description" content="">
+  <title>(주)어센틱금융그룹</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- kumb -->
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- bonmi stylesheet -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+  <!-- jquery -->
+  <script src="../../js/ui/lib/jquery-1.11.1.min.js"></script>
+  <script src="../../js/ui/lib/parallax.js"></script>
+
+  <!-- Slick Slide -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- Swiper Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- AOS animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- TypeIT JS -->
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+
+  <!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
+
+
+
+  <!-- bonme script -->
+  <script src="../../js/ui/page.js" type="text/javascript"></script>
+  
+</head>
+
+<body class="hidden">
+
+  <div id="loading-page">
+    <div class="text">
+      <span><img src="../../img/loading-logo.png" alt=""></span>
+      <span><img src="../../img/loading-logo.png" alt=""></span>
+    </div>
+  </div>
+
+<!--
+  <div id="loading-bar">
+    isLoading ...
+  </div>
+  -->
+  <div id="wrapper">
+
+    <!-- Header Area Start -->
+<header>
+    <div class="inner">
+
+        <!-- Logo Area Start -->
+        <div id="logo">
+            <h1>
+                <a href="/" class="ir">AUTHENTIC FINANCIAL GROUP</a>
+            </h1>
+        </div>
+
+        <!-- Gnb Area Start -->
+        <div class="menu">
+            <button type="button" class="menu-btn">
+                <span></span>
+                <span></span>
+            </button>
+            <div id="gnb">
+                <ul>
+                    <li>
+                        <a href="../sub/company.html">
+                            <span>01</span>
+                            회사소개
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../sub/collection.html">
+                            <span>02</span>
+                            컬렉션
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../sub/system.html">
+                            <span>03</span>
+                            시스템
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../sub/studio.html">
+                            <span>04</span>
+                            스튜디오
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../sub/news.html">
+                            <span>05</span>
+                            뉴스
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../sub/recruit.html">
+                            <span>06</span>
+                            채용
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</header><!-- Header Area End -->
+
+    <div id="wrap" class="">
+
+      <div class="">
+          <!-- icr 작업영역 -->
+          
+
+<div id="company-wrap">
+
+  <section class="sec01">
+    <div class="inner">
+
+    <!-- components -->
+    <div class="title-msg-wrap">
+      <h1 class="title-msg">
+        <div class="overflow-hidden">
+          <p class="fadeUpAni">어제보다 오늘이 </p>
+        </div>
+        <div class="overflow-hidden">
+          <p class="fadeUpAni delayOne">오늘보다 내일이 기대되는 회사</p>
+        </div>
+      </h1>
+      <div class="title-nav overflow-hidden">
+        <ul class="fadeUpAni delayTwo">
+          <li class="dep1">
+            <a href="/">HOME</a>
+          </li>
+          <i><img src="../../img/sub-nav-arrow.png" alt="sub nav arrow"></i>
+          <li class="dep2">
+            <a href="javascript:void(0);">
+              회사소개
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- components -->
+
+    </div>
+
+    <div class="overflow-hidden">
+      <div class="sec01-bg-wrap scaleAni"></div>
+    </div>
+
+    <div class="inner">
+      <div class="sec01-content-wrap">
+        <div class="text-wrap overflow-hidden">
+          <p class="fadeUpAni delayThree">
+            2020년 8월 ㈜더블유에프에스를 인수하고 설립한 ㈜어센틱금융그룹은 패션/유통 업계의<br>
+            큰 손 ㈜대명화학의 투자를 받아 ‘금융에 패션을 입히다’라는 슬로건으로 시작하여,<br>
+            강력한 브랜딩과 아이덴티티를 구축하고 인지도를 쌓으며 업계에서 가장 빠른 속도로<br>
+            성장하며 단숨에 1000명의 플래너가 넘는 대형GA로 진입하였으며, 체계적인 시스템과<br>
+            세련된 문화로 업계에 변화를 일으키며, 고객에게 가장 트렌디한 금융생활을 제공하며<br>
+            지속적인 혁신을 추구하고 있습니다.
+          </p>
+        </div>
+        <div class="count-wrap">
+          <ul>
+            <li>
+              <h6>
+                <span class="company-count-info" data-count="1000"></span>+
+              </h6>
+              <p>1000여명의 ‘어센틱플래너’</p>
+            </li>
+            <li>
+              <h6>
+                <span class="company-count-info" data-count="300"></span>+
+              </h6>
+              <p>300여개의 ‘관계사’</p>
+            </li>
+            <li>
+              <h6>
+                <span class="company-count-info" data-count="19"></span>+
+              </h6>
+              <p>협력파트너사</p>
+            </li>
+          </ul>
+        </div>
+        <div class="circle-wrap">
+          <div class="circle gray">
+            insurance company<br>
+            Advantages
+          </div>
+          <div class="circle blue">
+            general agency<br>
+            Advantages
+          </div>
+          <div class="circle">
+            <img src="../../img/sub-company-equal-ico.png" alt="sub-company-equal-ico">
+          </div>
+          <div class="circle navy">
+            Authentic Financial Group
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="sec02">
+    <div class="scene-wrap" id="scene-wrap01">
+      <div class="sec02-bg-wrap">
+        <p>
+          <span class="txt1">어센틱플래너는 다양한 금융분야의 전문가로서, 고객의 라이프 스타일에 맞는</span>
+          <span class="txt2">어센틱플래너는 다양한 금융분야의 전문가로서, 고객의 라이프 스타일에 맞는</span>
+        </p>
+        <p>
+          <span class="txt1">솔루션을 제공하는 어센틱만의 전문 플래너입니다. 빠르게 급변하는 금융시장</span>
+          <span class="txt2">솔루션을 제공하는 어센틱만의 전문 플래너입니다. 빠르게 급변하는 금융시장</span>
+        </p>
+        <p>
+          <span class="txt1">속에서 가장 트렌디하고 명확한 정보를 바탕으로, 고객의 신뢰를 핵심가치로 삼아</span>
+          <span class="txt2">속에서 가장 트렌디하고 명확한 정보를 바탕으로, 고객의 신뢰를 핵심가치로 삼아</span>
+        </p>
+        <p>
+          <span class="txt1">고객에게 행복하고 안전한 금융생활의 경험을 선사하는</span>
+          <span class="txt2">고객에게 행복하고 안전한 금융생활의 경험을 선사하는</span>
+        </p>
+        <p>
+          <span class="txt1">인생의 동반자 역할을 합니다.​</span>
+          <span class="txt2">인생의 동반자 역할을 합니다.​</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="inner">
+      <div class="sec02-content-wrap">
+        <h6 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">CORE VALUE</h6>
+        <ul>
+          <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <div class="number">
+              <p>
+                <span class="num1">01</span>
+                <span class="num2">01</span>
+              </p>
+            </div>
+            <div class="title">
+              <p>
+                <span class="text1">SUSTAINABLE</span>
+                <span class="text2">SUSTAINABLE</span>
+              </p>
+              <p>
+                <span class="text1">GROWTH</span>
+                <span class="text2">GROWTH</span>
+              </p>
+            </div>
+            <ul class="sec02-text-wrap">
+              <li>도전적인 목표 설정​</li>
+              <li>어센틱만의 ‘identity’ 확립​</li>
+              <li>어센틱만의 ‘차별성’ 유지​</li>
+              <li>다양한 커리어 패스​</li>
+              <li>투명한 윤리 경영</li>
+            </ul>
+          </li>
+          <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <div class="number">
+              <p>
+                <span class="num1">02</span>
+                <span class="num2">02</span>
+              </p>
+            </div>
+            <div class="title">
+              <p>
+                <span class="text1">INNOVATIVE​</span>
+                <span class="text2">INNOVATIVE​</span>
+              </p>
+              <p>
+                <span class="text1">SYSTEM</span>
+                <span class="text2">SYSTEM</span>
+              </p>
+            </div>
+            <ul class="sec02-text-wrap">
+              <li>선진화된 복지 시스템​</li>
+              <li>최적의 고객 매칭​</li>
+              <li>다양한 시장 개발​</li>
+              <li>DIGITAL 어센틱​</li>
+              <li>고객 맞춤형 솔루션</li>
+            </ul>
+          </li>
+          <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <div class="number">
+              <p>
+                <span class="num1">03</span>
+                <span class="num2">03</span>
+              </p>
+            </div>
+            <div class="title">
+              <p>​
+                <span class="text1">TRENDY</span>
+                <span class="text2">TRENDY</span>
+              </p>
+              <p>
+                <span class="text1">CULTURE​</span>
+                <span class="text2">CULTURE​</span>
+              </p>
+            </div>
+            <ul class="sec02-text-wrap">
+              <li>하이퀄리티 단독 컨밴션 기획</li>
+              <li>어센틱만의 단독 시책​</li>
+              <li>수평적 기업 문화​</li>
+              <li>퍼스널 브랜딩​</li>
+              <li>차별화된 사내공간​</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec03">
+    <div class="sec03-bg-wrap" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></div>
+    <div class="studio-txt">
+      <div class="inner">
+        <span>ⓒTONGYEONG_STUDIO</span>
+      </div>
+    </div>
+
+    <div class="sec03-content-wrap">
+      <div class="inner">
+        <div class="sec03-title-wrap">
+          <h6 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">HISTORY</h6>
+          <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            어센틱금융그룹은 당신의 아름다운 삶을 위해<br>
+            아름다운 여정을 항해하고 있습니다
+          </p>
+        </div>
+      </div>
+      <div class="history-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <div class="inner">
+          <div id="history" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="year">2022</div>
+                <div class="dots">
+                  <span></span>
+                </div>
+                <ul>
+                  <li>
+                    <div class="date">2022. 06</div>
+                    <div class="txt">
+                      모바일 ERP 런칭<br>
+                      KDB생명 제휴​<br>
+                      울산 스튜디오 오픈(울산)<br>
+                      ​마산 스튜디오 오픈(마산)​
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2022. 05</div>
+                    <div class="txt">
+                      센트럴 스튜디오 오픈(서울)​<br>
+                      스마트 확인서 APP 런칭
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2022. 04</div>
+                    <div class="txt">엔타스3 스튜디오 오픈(인천)</div>
+                  </li>
+                  <li>
+                    <div class="date">2022. 03</div>
+                    <div class="txt">지오 스튜디오 오픈(대전)​</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <div class="year">2021</div>
+                <div class="dots">
+                  <span></span>
+                </div>
+                <ul>
+                  <li>
+                    <div class="date">2021. 10</div>
+                    <div class="txt">김해 스튜디오 오픈(김해)​</div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 09</div>
+                    <div class="txt">DGB생명 제휴</div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 06</div>
+                    <div class="txt">ACE손보 제휴</div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 05</div>
+                    <div class="txt">
+                      처브라이프생명 제휴​<br>
+                      미래에셋생명 제휴
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 04</div>
+                    <div class="txt">엔타스2 스튜디오 오픈(인천)</div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 03</div>
+                    <div class="txt">
+                      BNP파리바 카디프생명 제휴​<br>
+                      푸르덴셜생명 제휴​<br>
+                      353 스튜디오 오픈(대구)<br>
+                      통영 스튜디오 오픈(통영)<br>
+                      센텀 스튜디오 오픈(부산)
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 02</div>
+                    <div class="txt">기업영업팀 신설</div>
+                  </li>
+                  <li>
+                    <div class="date">2021. 01</div>
+                    <div class="txt">
+                      A-CARE 런칭<br>
+                      ABL생명 제휴​
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <div class="year">2020</div>
+                <div class="dots">
+                  <span></span>
+                </div>
+                <ul>
+                  <li>
+                    <div class="date">2020. 12</div>
+                    <div class="txt">디큐브 스튜디오 오픈​(서울)</div>
+                  </li>
+                  <li>
+                    <div class="date">2020. 11</div>
+                    <div class="txt">
+                      엔타스 스튜디오 오픈(인천)<br>
+                      프라임 스튜디오 오픈(서울)
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2020. 10</div>
+                    <div class="txt">롯데손보 제휴​</div>
+                  </li>
+                  <li>
+                    <div class="date">2020. 08</div>
+                    <div class="txt">
+                      어센틱금융그룹 사명변경​<br>
+                      대명화학 투자 유치​
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <div class="year">2019</div>
+                <div class="dots">
+                  <span></span>
+                </div>
+                <ul>
+                  <li>
+                    <div class="date">2019. 11</div>
+                    <div class="txt">메트라이프생명 제휴</div>
+                  </li>
+                  <li>
+                    <div class="date">2019. 11</div>
+                    <div class="txt">라이나생명 제휴</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <div class="year">2018</div>
+                <div class="dots">
+                  <span></span>
+                </div>
+                <ul>
+                  <li>
+                    <div class="date">2018. 10</div>
+                    <div class="txt">DB생명 제휴</div>
+                  </li>
+                  <li>
+                    <div class="date">2018. 05</div>
+                    <div class="txt">
+                      삼성생명 제휴<br>
+                      흥국생명 제휴
+                    </div>
+                  </li>
+                  <li>
+                    <div class="date">2018. 04</div>
+                    <div class="txt">
+                      (주)더블유에프에스 설립​<br>
+                      메리츠화재 제휴​<br>
+                      현대해상 제휴​<br>
+                      KB손보 제휴​<br>
+                      DB손보 제휴
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec03-slide-text">
+        <h3>AUTHENTIC - FINANCIAL</h3>
+      </div>
+      <div class="inner">
+        <div class="sec03-partners" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+          <div class="text-wrap">
+            <h6>PARTNERS</h6>
+            <p>
+              어센틱금융그룹은 국내외 탄탄한 재무건전성을 갖춘<br>
+              파트너사와 함께​ 행복한 금융세상을 만들어 갑니다.
+            </p>
+          </div>
+          <div class="logo-wrap"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="sec04">
+    <div class="sec04-bg-wrap">
+      <div class="inner">
+        <div class="sec04-content-wrap">
+          <!-- <div class="left-img-wrap">
+            <div class="img-slide left-01"></div>
+            <div class="img-slide left-02"></div>
+            <div class="img-slide left-03"></div>
+          </div> -->
+          <h6>
+            Hexagonal, <span class="stroke-text">Typhoon</span>, Core,<br>
+            <span class="stroke-text">Acrylic</span>, Diffuse, <span class="stroke-text">Silver</span>
+          </h6>
+          <div class="slide-img-wrap">
+            <img src="../../img/company-imgslide01.png" alt="company-imgslide01">
+            <img src="../../img/company-imgslide02.png" alt="company-imgslide02">
+            <img src="../../img/company-imgslide03.png" alt="company-imgslide03">
+            <img src="../../img/company-imgslide04.png" alt="company-imgslide04">
+            <img src="../../img/company-imgslide05.png" alt="company-imgslide05">
+            <img src="../../img/company-imgslide06.png" alt="company-imgslide06">
+          </div>
+          <!-- <div class="right-img-wrap">
+            <div class="img-slide right-01"></div>
+            <div class="img-slide right-02"></div>
+            <div class="img-slide right-03"></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sec05">
+    <div class="inner">
+      <h6 class="title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">IDENTITY</h6>
+      <div class="sec05-bg-wrap" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000"></div>
+      <div class="sec05-symbol-wrap">
+        <div class="text-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+          <div class="title">SYMBOL STORY</div>
+          <div class="text">
+            Authentic A, 패션의 완벽함을 상징하는 Hexagon, 금융업계에서의 돌풍을 의미하는 Typhoon. 이 세가지를 결합하여 견고하면서도 힘이 느껴지는 어센틱금융그룹의
+            심볼을 제작하였습니다.
+          </div>
+        </div>
+        <div class="symbol-wrap">
+          <div class="left-symbol" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <div class="icon-wrap">
+              <i><img src="../../img/symbol-mark.png" alt="symbol mark"></i>
+            </div>
+            <div class="download-wrap">
+              <!-- <a href="../../img/symbol-mark.png" download>심볼마크 다운로드</a> -->
+              <a href="javascript: void(0);" download>심볼마크 다운로드</a>
+              
+              <i><img src="../../img/company-download-icon.png" alt="company download icon"></i>
+            </div>
+          </div>
+          <div class="right-symbol" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">
+            <div class="icon-wrap">
+              <i><img src="../../img/symbol-logo.png" alt="symbol mark"></i>
+            </div>
+            <div class="download-wrap">
+              <!-- <a href="../../img/symbol-logo.png" download>시그니쳐로고 다운로드</a> -->
+              <a href="javascript: void(0);" download>시그니쳐로고 다운로드</a>
+              <i><img src="../../img/company-download-icon.png" alt="company download icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec05-color-wrap">
+        <div class="left-color">
+          <div class="color-box navy" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <h6 class="color-name">AUTHENTIC NAVY</h6>
+            <p class="color-info">
+              PANTONE : 282C <br />
+              C:100 M:87 Y:42 K:52 <br />
+              R:1 G:30 B:65
+            </p>
+          </div>
+        </div>
+        <div class="right-color">
+          <div class="color-box rich-blue" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">
+            <h6 class="color-name">RICH BLUE</h6>
+            <p class="color-info">
+              PANTONE : 648C <br />
+              C:100 M:62 Y:56 K:15 <br />
+              R:0 G:45 B:93
+            </p>
+          </div>
+          <div class="color-box space-gray" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="400">
+            <h6 class="color-name">SPACE GRAY</h6>
+            <p class="color-info">
+              PANTONE : 429C <br />
+              C:39 M:28 Y:27 K:0 <br />
+              R:162 G:169 B:173
+            </p>
+          </div>
+          <div class="color-box real-black" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="600">
+            <h6 class="color-name">REAL BLACK</h6>
+            <p class="color-info">
+              PANTONE : Black 6C <br />
+              C:91 M:84 Y:73 K:63 <br />
+              R:16 G:24 B:32
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sec05-icon-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">
+        <img src="../../img/company-sec05-icons.png" alt="compnay icons">
+      </div>
+    </div>
+    <div class="sec05-slide-wrap-box" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">
+      <div class="sec05-img-slide-wrap">
+        <img src="../../img/sec05-img-slide.png" alt="sec05-img-slide">
+        <img src="../../img/sec05-img-slide.png" alt="sec05-img-slide">
+      </div>
+      <!-- <div class="sec05-img-slide-wrap">
+        <div class="img-slide-box md">
+          <div class="img-slide01"></div>
+          <div class="img-slide02"></div>
+        </div>
+        <div class="img-slide-box md">
+          <div class="img-slide03"></div>
+          <div class="img-slide04"></div>
+        </div>
+        <div class="img-slide-box lg">
+          <div class="img-slide05"></div>
+        </div>
+        <div class="img-slide-box md">
+          <div class="img-slide01"></div>
+          <div class="img-slide02"></div>
+        </div>
+        <div class="img-slide-box md">
+          <div class="img-slide03"></div>
+          <div class="img-slide04"></div>
+        </div>
+        <div class="img-slide-box lg">
+          <div class="img-slide05"></div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // Company Scroll Event
+  var a = 0;
+  $(window).scroll(function () {
+    // Company Count Event
+    var oTop = $('#company-wrap .sec01 .sec01-content-wrap').offset().top - window.innerHeight;
+    var oTop2 = $('#company-wrap .sec01 .sec01-content-wrap').innerHeight() / 2;
+    if (a == 0 && $(window).scrollTop() > oTop + oTop2) {
+      $('#company-wrap .company-count-info').each(function () {
+        var $this = $(this),
+          countTo = $this.attr('data-count');
+        $({
+          countNum: $this.text()
+        }).animate({
+          countNum: countTo
+        }, {
+          duration: 2000,
+          easing: 'swing',
+          step: function () {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function () {
+            $this.text(this.countNum);
+          }
+        });
+      });
+      a = 1;
+    } else if (a == 1 && $(window).scrollTop() < oTop) {
+      a = 0;
+      $('#company-wrap .company-count-info').text('0');
+    }
+
+    // Company Circle Event
+    const sec = $('#company-wrap .sec01 .sec01-content-wrap .circle-wrap');
+    const secTop = sec.offset().top - window.innerHeight;
+    const secHeight = sec.innerHeight() / 2;
+    if ($(window).scrollTop() > secTop + secHeight) {
+      sec.addClass('on');
+    } else {
+      sec.removeClass('on');
+    }
+
+
+
+    // Company Text Event
+    const windowScroll = $(window).scrollTop(); // window scroll
+    const scene = $('#scene-wrap01'); // 장면 생성
+    const target = $('#scene-wrap01 .sec02-bg-wrap') // target 지정
+    const sceneStart = scene.offset().top; // scroll 시작
+    const sceneEnd = sceneStart + scene.innerHeight() - $(window).innerHeight(); // scroll 끝
+    const sceneHeight = scene.innerHeight() - target.innerHeight(); // 전체 높이
+    const scrollLocation = windowScroll - sceneStart; // 스크롤 위치
+    const scrollPercent = Math.floor(scrollLocation / (sceneHeight / 100)); // 스크롤 퍼센트
+
+    if (windowScroll >= sceneStart && sceneEnd >= windowScroll) {
+      scene.addClass('active');
+      const percent1 = scrollPercent / 20 * 100;
+      if (scrollPercent < 20) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(1) .txt2').css('width', `${Math.floor(scrollLocation / (sceneHeight / 5) * 100)}%`);
+      } else {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(1) .txt2').css('width', `100%`);
+      }
+
+      if (20 <= scrollPercent && scrollPercent < 40) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(2) .txt2').css('width', `${Math.floor(scrollLocation / (sceneHeight / 5) * 100 - 100)}%`);
+      } else if (scrollPercent < 20) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(2) .txt2').css('width', `0`);
+      } else if (scrollPercent > 40) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(2) .txt2').css('width', `100%`);
+      }
+
+      if (40 <= scrollPercent && scrollPercent < 60) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(3) .txt2').css('width', `${Math.floor(scrollLocation / (sceneHeight / 5) * 100 - 200)}%`);
+      } else if (scrollPercent < 40) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(3) .txt2').css('width', `0`);
+      } else if (scrollPercent > 60) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(3) .txt2').css('width', `100%`);
+      }
+
+      if (60 <= scrollPercent && scrollPercent < 80) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(4) .txt2').css('width', `${Math.floor(scrollLocation / (sceneHeight / 5) * 100 - 300)}%`);
+      } else if (scrollPercent < 60) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(4) .txt2').css('width', `0`);
+      } else if (scrollPercent > 80) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(4) .txt2').css('width', `100%`);
+      }
+
+      if (80 <= scrollPercent && scrollPercent < 100) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(5) .txt2').css('width', `${Math.floor(scrollLocation / (sceneHeight / 5) * 100 - 400)}%`);
+      } else if (scrollPercent < 80) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(5) .txt2').css('width', `0`);
+      } else if (scrollPercent > 100) {
+        $('#scene-wrap01 .sec02-bg-wrap p:nth-child(5) .txt2').css('width', `100%`);
+      }
+
+    } else if (windowScroll >= sceneEnd) {
+      $('#scene-wrap01 .sec02-bg-wrap p .txt2').css('width', `100%`);
+    } else {
+      scene.removeClass('active');
+      $('#scene-wrap01 .sec02-bg-wrap p .txt2').css('width', 0)
+    }
+
+
+    // Company coreValue Section scroll event
+    const targetCore = $('#company-wrap .sec02 .sec02-content-wrap>ul>li');
+    const arrayCore = Array(targetCore)
+    const coreValue = arrayCore[0];
+    let c = 0;
+    for (c; c < coreValue.length; c++) {
+      const coreValueTop1 = coreValue[c].offsetTop - window.innerHeight / 2;
+      const coreValueHeight1 = coreValue[c].offsetHeight / 2;
+      if ($(window).scrollTop() > coreValueTop1 + coreValueHeight1) {
+        coreValue[c].classList.add('on');
+      } else {
+        coreValue[c].classList.remove('on');
+      }
+    }
+
+    const scene04 = $('#company-wrap .sec04');
+    const scene04Top = scene04.offset().top;
+    const scene04Height = scene04.innerHeight();
+    const leftBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .left-img-wrap');
+    const rightBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .right-img-wrap');
+    const slideBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .slide-img-wrap')
+    const scene04Text = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap h6');
+    const op1 = (windowScroll - (scene04Top + (scene04Height * 0.05))) / (scene04Height * 0.05) * (1 - 0) + 0;
+    const tr1 = (windowScroll - (scene04Top + (scene04Height * 0.1))) / (scene04Height * 0.7) * (-600 - 100) + 100;
+    const tr2 = (windowScroll - (scene04Top + (scene04Height * 0.2))) / (scene04Height * 0.25) * (0 + 100) - 100;
+
+    if (windowScroll > scene04Top) {
+      scene04.addClass('on');
+    } else {
+      scene04.removeClass('on');
+    }
+
+    if (windowScroll >= scene04Top + (scene04Height * 0.05)) {
+      scene04Text.css({
+        'opacity' : `${op1}`
+      })
+    } else if (windowScroll < scene04Top + (scene04Height * 0.05)) {
+      scene04Text.css({
+        'opacity' : 0
+      })
+    }
+
+    if (windowScroll >= scene04Top + (scene04Height * 0.1)) {
+      slideBox.css('transform', `translateY(${tr1}vh)`);
+      // leftBox.css('transform', `translateY(${tr1}%)`);
+      // rightBox.css('transform', `translateY(${tr2}%)`);
+    } else if (windowScroll < scene04Top + (scene04Height * 0.1)) {
+      slideBox.css('transform', `translateY(100vh)`);
+    }
+
+
+    // History Slide
+    var historySwiper = new Swiper('#history', {
+      slidesPerView: 1,
+      loop: false,
+      speed: 1000,
+      resistance: true, // 슬라이드 터치에 대한 저항 여부 설정
+      allowTouchMove: true, // false시에 스와이핑이 되지 않으며 버튼으로만 슬라이드 조작이 가능
+    });
+  });
+
+  $(window).on('resize load', function () {
+    const circleWrap = $('#company-wrap .sec01 .sec01-content-wrap .circle-wrap');
+    const circle = $('#company-wrap .sec01 .sec01-content-wrap .circle-wrap .circle');
+    const circleHeight = circle.innerWidth();
+    circle.css('height', circleHeight)
+    circleWrap.css('height', circleHeight);
+  })
+</script>
+
+<script>
+  AOS.init();
+</script>
+
+
+          <!--// icr 작업영역 -->
+      </div>
+
+    </div>
+
+    <!-- Footer Area Start -->
+<footer>
+    <div class="inner">
+
+        <!-- Top-info Area Start -->
+        <div class="top-info">
+            <div class="family-site">
+                <button type="button" class="family-site-btn">
+                    <span>FAMILY SITE</span>
+                    <img src="../../img/plus-icon.png" alt="plus-icon">
+                </button>
+                <ul>
+                    <li><a href="javascript: void(0);">어센틱 몰</a></li>
+                    <li><a href="javascript: void(0);">어센틱 에듀</a></li>
+                    <li><a href="javascript: void(0);">어센틱 케어</a></li>
+                    <li><a href="javascript: void(0);">어센틱 테일러드</a></li>
+                    <li><a href="javascript: void(0);">어센틱 라인</a></li>
+                    <li><a href="javascript: void(0);">어센틱 링크</a></li>
+                    <li><a href="javascript: void(0);">어센틱 라운지</a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="https://www.instagram.com/afg.kr/" target="_blank" class="no-motion">인스타그램</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCVqm7z5vVda537C1U1xDNpw" target="_blank" class="no-motion">유튜브</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom-info Area Start -->
+        <div class="bottom-info">
+            <div class="copyright">(주)어센틱금융그룹 © 2022</div>
+            <p>
+                <span>주소  서울특별시 성동구 성수일로 6길 53, 유원지식산업센터 4층</span>
+                <span>사업자 등록번호  626-87-00900    대표번호  1566 0428</span>
+                <span>보험대리점등록번호 : 제2018040001 | 보험대리점등록증[클릭]</span>
+            </p>
+            <div class="corp-area">
+                <ul>
+                    <li><a href="javascript: void(0);">이용약관</a></li>
+                    <li><a href="javascript: void(0);">개인정보처리방침</a></li>
+                    <li><a href="javascript: void(0);">금융소비자보호기준</a></li>
+                    <li><a href="javascript: void(0);">금융소비자보호 내부통제기준</a></li>
+                </ul>
+            </div>
+            <div class="footer-circle">
+                <button id="top-btn">
+                    <span class="arrow"><img src="../../img/big-arrow-top.png" alt="arrow-top"></span>
+                    <span class="circle"><img src="../../img/footer-circle.png" alt="footer-circle"></span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</footer><!-- Footer Area End -->
+
+
+  </div>
+
+</body>
+
+</html>

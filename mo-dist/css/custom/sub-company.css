@@ -1,0 +1,971 @@
+#company-wrap .sec01 .sec01-bg-wrap {
+  width: 100%;
+  height: 61.111vw;
+  background: url("../img/mo-company-sec01-bg.png") no-repeat 50% center/cover;
+  margin-bottom: 11.111vw;
+}
+
+#company-wrap .sec02 .text-wrap {
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec02 .text-wrap p {
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #161616;
+  word-break: keep-all;
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec02 .count-wrap {
+  padding-bottom: 16.667vw;
+  border-bottom: .278vw solid #ccc;
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec02 .count-wrap ul li {
+  text-align: center;
+}
+
+#company-wrap .sec02 .count-wrap ul li:not(:last-child) {
+  margin-bottom: 11.111vw;
+}
+
+#company-wrap .sec02 .count-wrap ul li h6 {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 13.889vw;
+  margin-bottom: 6.944vw;
+  color: #161616;
+}
+
+#company-wrap .sec02 .count-wrap ul li p {
+  font-size: 5vw;
+  font-weight: 400;
+  color: #161616;
+}
+
+#company-wrap .sec02 .circle-wrap {
+  padding-bottom: 22.222vw;
+}
+
+#company-wrap .sec02 .circle-wrap .top-circle-wrap {
+  position: relative;
+  height: 50vw;
+  margin-bottom: 18.056vw;
+}
+
+#company-wrap .sec02 .circle-wrap .top-circle-wrap::after {
+  content: "";
+  display: block;
+  width: 6.667vw;
+  height: 7.778vw;
+  position: absolute;
+  bottom: -11.111vw;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: url("../img/mo-company-circle-after.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec02 .circle-wrap .top-circle-wrap>div {
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #161616;
+}
+
+#company-wrap .sec02 .circle-wrap .top-circle-wrap>div.left-circle {
+  background-color: rgba(6,45,85,.1);
+  left: 0;
+}
+
+#company-wrap .sec02 .circle-wrap .top-circle-wrap>div.right-circle {
+  background-color: rgba(167,199,232,.5);
+  right: 0;
+}
+
+#company-wrap .sec02 .circle-wrap .btm-circle-wrap {
+  width: 50vw;
+  height: 50vw;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #011e41;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#company-wrap .sec03 .sec03-bg-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  height: 155.556vw;
+  background: url("../img/mo-company-mission-bg.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec03 .sec03-bg-wrap span {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 4.167vw;
+  display: inline-block;
+  margin-bottom: 8.333vw;
+  color: #999;
+}
+
+#company-wrap .sec03 .sec03-bg-wrap p {
+  font-weight: 500;
+  font-size: 6.111vw;
+  line-height: 1.5;
+  word-break: keep-all;
+  color: #fff;
+}
+
+#company-wrap .sec04 {
+  padding: 22.222vw 0;
+}
+
+#company-wrap .sec04 h6 {
+  padding-bottom: 8.333vw;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 8.889vw;
+  color: #161616;
+}
+
+#company-wrap .sec04>div>ul>li {
+  padding: 16.667vw 0;
+  border-top: .278vw solid #ccc;
+}
+
+#company-wrap .sec04>div>ul>li .number {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 8.889vw;
+  margin-bottom: 8.333vw;
+  color: #161616;
+}
+
+#company-wrap .sec04>div>ul>li .title {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 8.889vw;
+  line-height: 1.3;
+  margin-bottom: 8.333vw;
+  color: #161616;
+}
+
+#company-wrap .sec04>div>ul>li .sec04-text-wrap li {
+  font-weight: 400;
+  font-size: 5vw;
+  color: #666;
+  padding-left: 4.167vw;
+  position: relative;
+}
+
+#company-wrap .sec04>div>ul>li .sec04-text-wrap li::after {
+  content: "";
+  display: block;
+  width: 1.389vw;
+  height: 1.389vw;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: .556vw;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #666;
+}
+
+#company-wrap .sec04>div>ul>li .sec04-text-wrap li:not(:last-child) {
+  margin-bottom: 3.333vw;
+}
+
+#company-wrap .sec04 .sec04-bg-wrap {
+  height: 83.333vw;
+  background: url("../img/mo-company-sec04-bg.png") no-repeat 50% center/cover;
+  margin-bottom: 2.778vw;
+}
+
+#company-wrap .sec04 .caption-msg {
+  text-align: right;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 400;
+  font-size: 3.056vw;
+  padding: 0 5.556vw;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#company-wrap .sec05 {
+  overflow: hidden;
+}
+
+#company-wrap .sec05 .title-wrap {
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec05 .title-wrap h6 {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 10vw;
+  color: #161616;
+  margin-bottom: 5.556vw;
+}
+
+#company-wrap .sec05 .title-wrap p {
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 1.5;
+  color: #161616;
+  word-break: keep-all;
+}
+
+#company-wrap .sec05 .new-slide-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 5.556vw;
+}
+
+#company-wrap .sec05 .new-slide-box #company-slide {
+  overflow: unset;
+  width: 27.778vw;
+  height: auto;
+  margin: 0;
+}
+
+#company-wrap .sec05 .new-slide-box #company-slide .tab-box li {
+  text-align: center;
+}
+
+#company-wrap .sec05 .new-slide-box #company-slide .tab-box li.swiper-slide-active a {
+  color: #161616;
+}
+
+#company-wrap .sec05 .new-slide-box #company-slide .tab-box li a {
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 6.111vw;
+  font-weight: 600;
+  color: #ccc;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-button-arrow {
+  width: 2.778vw;
+  height: 2.778vw;
+  font-size: 0;
+  position: absolute;
+  top: 3.611vw;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-button-arrow.swiper-button-prev {
+  left: 2.778vw;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-button-arrow.swiper-button-prev::after {
+  width: 2.778vw;
+  height: 2.778vw;
+  font-size: 0;
+  background: url("../img/mo-company-history-prev.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-button-arrow.swiper-button-next {
+  right: 2.778vw;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-button-arrow.swiper-button-next::after {
+  width: 2.778vw;
+  height: 2.778vw;
+  font-size: 0;
+  background: url("../img/mo-company-history-next.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-info {
+  width: 100%;
+  height: .556vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#company-wrap .sec05 .new-slide-box .swiper-info .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #23364b;
+}
+
+#company-wrap .sec05 .cont-list-wrap .tab-cont-wrap {
+  padding: 13.889vw 5.556vw 22.222vw;
+}
+
+#company-wrap .sec05 .cont-list-wrap .tab-cont-wrap li:not(:last-child) {
+  margin-bottom: 11.111vw;
+}
+
+#company-wrap .sec05 .cont-list-wrap .tab-cont-wrap li span {
+  font-weight: 400;
+  font-size: 5vw;
+  color: #666;
+  display: inline-block;
+  margin-bottom: 2.778vw;
+}
+
+#company-wrap .sec05 .cont-list-wrap .tab-cont-wrap li p {
+  font-weight: 400;
+  font-size: 5vw;
+  color: #161616;
+  line-height: 1.3;
+}
+
+#company-wrap .sec05 .sec05-slide-text {
+  width: 100%;
+  height: 25vw;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 22.222vw;
+}
+
+#company-wrap .sec05 .sec05-slide-text h3 {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 700;
+  font-size: 25vw;
+  -webkit-text-stroke: .278vw #000;
+  -webkit-text-fill-color: rgba(0,0,0,0);
+  white-space: nowrap;
+}
+
+#company-wrap .sec05 .sec05-slide-text h3 span {
+  display: block;
+  -webkit-animation: slideText2 13s linear infinite;
+  -moz-animation: slideText2 13s linear infinite;
+  animation: slideText2 13s linear infinite;
+  position: absolute;
+  left: 0;
+}
+
+#company-wrap .sec06 {
+  overflow: hidden;
+  padding-bottom: 75vw;
+}
+
+#company-wrap .sec06 .inner {
+  position: relative;
+}
+
+#company-wrap .sec06 .title-wrap {
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec06 .title-wrap h6 {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 10vw;
+  color: #161616;
+  margin-bottom: 5.556vw;
+}
+
+#company-wrap .sec06 .title-wrap p {
+  font-weight: 400;
+  font-size: 5vw;
+  color: #161616;
+  line-height: 1.5;
+}
+
+#company-wrap .sec06 .sec06-slide {
+  border-bottom: .278vw solid #c4c4c4;
+  position: relative;
+  padding-bottom: 16.667vw;
+  overflow: hidden;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide {
+  margin-bottom: -16.667vw;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide li>div {
+  width: 50%;
+  height: auto;
+  margin-bottom: 13.889vw;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide li>div:nth-child(odd) {
+  padding-right: 8.333vw;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide li>div:nth-child(even) {
+  padding-left: 8.333vw;
+}
+
+#company-wrap .sec06 .sec06-slide #sec06-slide li>div img {
+  width: 100%;
+}
+
+#company-wrap .sec06 .swiper-info {
+  position: absolute;
+  bottom: -13.889vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#company-wrap .sec06 .swiper-info .count-wrap {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #ccc;
+  margin: 0 8.333vw;
+}
+
+#company-wrap .sec06 .swiper-info .count-wrap .count {
+  color: #161616;
+}
+
+#company-wrap .sec06 .swiper-info .count-wrap .slash {
+  margin: 0 .833vw;
+}
+
+#company-wrap .sec06 .swiper-info .swiper-button-arrow {
+  width: 8.333vw;
+  height: 5vw;
+  font-size: 0;
+  position: static;
+  margin-top: 0;
+  display: block;
+}
+
+#company-wrap .sec06 .swiper-info .swiper-button-arrow::after {
+  display: none;
+}
+
+#company-wrap .sec06 .swiper-info .swiper-button-arrow.swiper-button-prev {
+  background: url("../img/mo-company-partners-prev.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec06 .swiper-info .swiper-button-arrow.swiper-button-next {
+  background: url("../img/mo-company-partners-next.png") no-repeat 50% center/cover;
+}
+
+#company-wrap .sec07 {
+  display: block;
+  width: 100%;
+  height: 700vh;
+  background-color: #000;
+  position: relative;
+  z-index: -1;
+  margin-top: -100vh;
+  opacity: 0;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s;
+  overflow: unset;
+}
+
+#company-wrap .sec07.on {
+  opacity: 1;
+  z-index: 99;
+}
+
+#company-wrap .sec07.on .sec07-bg-wrap {
+  position: sticky;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner {
+  overflow: hidden;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap h6 {
+  color: #fff;
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 6.667vw;
+  font-weight: 600;
+  line-height: 1.3;
+  z-index: 10;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap h6 span {
+  -webkit-text-stroke: .278vw #fff;
+  -webkit-text-fill-color: rgba(0,0,0,0);
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(100vh);
+  -moz-transform: translateY(100vh);
+  -ms-transform: translateY(100vh);
+  transform: translateY(100vh);
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img {
+  margin-bottom: 100vh;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:last-child {
+  margin-bottom: 0;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:nth-child(1) {
+  margin-left: auto;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:nth-child(2) {
+  margin-right: auto;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:nth-child(3) {
+  margin: 0 auto 100vh;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:nth-child(4) {
+  margin-left: auto;
+}
+
+#company-wrap .sec07 .sec07-bg-wrap .inner .sec07-content-wrap .slide-img-wrap img:nth-child(5) {
+  margin-right: auto;
+}
+
+#company-wrap .sec08 {
+  padding: 22.222vw 0;
+}
+
+#company-wrap .sec08 .title-wrap h6 {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 10vw;
+  color: #161616;
+  margin-bottom: 8.333vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-bg-wrap {
+  width: 100%;
+  height: 61.111vw;
+  background: url("../img/mo-company-sec08-bg.png") no-repeat 50% center/cover;
+  margin-bottom: 5.556vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .text-wrap {
+  margin-bottom: 11.111vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .text-wrap .title {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 6.111vw;
+  color: #161616;
+  margin-bottom: 5.556vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .text-wrap .text {
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 1.5;
+  word-break: keep-all;
+  color: #161616;
+  text-transform: uppercase;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap>div {
+  border-bottom: .278vw solid #ccc;
+  padding-bottom: 5.556vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .top-symbol {
+  margin-bottom: 16.667vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .top-symbol .icon-wrap i img {
+  width: 75vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .btm-symbol .icon-wrap i img {
+  width: 61.111vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .icon-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 41.667vw;
+  background-color: #f5f5f5;
+  margin-bottom: 5.556vw;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .download-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .download-wrap a {
+  display: block;
+  margin-right: 2.778vw;
+  font-weight: 400;
+  font-size: 5vw;
+  color: #161616;
+}
+
+#company-wrap .sec08 .title-wrap .sec08-symbol-wrap .symbol-wrap .download-wrap>i img {
+  width: 5.556vw;
+}
+
+#company-wrap .sec09 .box {
+  height: 66.667vw;
+  padding: 5.556vw 5.556vw 11.111vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+#company-wrap .sec09 .box h6 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 600;
+  font-size: 5vw;
+  margin-bottom: 2.778vw;
+}
+
+#company-wrap .sec09 .box p {
+  text-transform: uppercase;
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 500;
+  font-size: 4.167vw;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#company-wrap .sec09 .box.navy {
+  height: 68.056vw;
+  background-color: #011e41;
+}
+
+#company-wrap .sec09 .box.rich-blue {
+  background-color: #002d5d;
+}
+
+#company-wrap .sec09 .box.space-gray {
+  background-color: #a2a9ad;
+}
+
+#company-wrap .sec09 .box.real-black {
+  background-color: #101a20;
+}
+
+#company-wrap .sec09 .sec09-icon-wrap {
+  padding: 22.222vw 13.889vw;
+}
+
+#company-wrap .sec09 .sec09-icon-wrap img {
+  width: 100%;
+}
+
+#company-wrap .sec10 {
+  overflow: hidden;
+}
+
+#company-wrap .sec10 .sec10-img-slide-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#company-wrap .sec10 .sec10-img-slide-wrap img {
+  display: block;
+  min-width: 277.778vw;
+  -webkit-animation: slideText 30s linear infinite;
+  -moz-animation: slideText 30s linear infinite;
+  animation: slideText 30s linear infinite;
+}
+
+#history-list {
+  width: 100%;
+  height: auto;
+  margin-bottom: 22.222vw;
+}
+
+#history-list .box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 5.556vw;
+  position: relative;
+}
+
+#history-list .slide01-wrap {
+  width: 27.778vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: unset;
+}
+
+#history-list .slide01-wrap .swiper-wrapper .swiper-slide {
+  text-align: center;
+}
+
+#history-list .slide01-wrap .swiper-wrapper .swiper-slide span {
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 6.111vw;
+  font-weight: 600;
+  color: #ccc;
+}
+
+#history-list .slide01-wrap .swiper-wrapper .swiper-slide.swiper-slide-active span {
+  color: #161616;
+}
+
+#history-list .slide02-wrap {
+  width: 100%;
+  height: auto;
+  padding: 8.333vw 5.556vw 0;
+}
+
+#history-list .slide02-wrap .swiper-wrapper .swiper-slide dl:not(:last-child) {
+  margin-bottom: 11.111vw;
+}
+
+#history-list .slide02-wrap .swiper-wrapper .swiper-slide dl dt {
+  font-family: "Kumbh Sans",sans-serif;
+  font-size: 5vw;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #666;
+}
+
+#history-list .slide02-wrap .swiper-wrapper .swiper-slide dl dd {
+  font-size: 5vw;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #161616;
+}
+
+#history-list .swiper-button-arrow {
+  position: absolute;
+  top: 44%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#history-list .swiper-button-arrow.swiper-button-prev {
+  left: 2.778vw;
+}
+
+#history-list .swiper-button-arrow.swiper-button-prev::after {
+  width: 2.222vw;
+  height: 3.889vw;
+  font-size: 0;
+  background: url("../img/mo-company-history-prev.png") no-repeat 50% center/cover;
+}
+
+#history-list .swiper-button-arrow.swiper-button-next {
+  right: 2.778vw;
+}
+
+#history-list .swiper-button-arrow.swiper-button-next::after {
+  width: 2.222vw;
+  height: 3.889vw;
+  font-size: 0;
+  background: url("../img/mo-company-history-next.png") no-repeat 50% center/cover;
+}
+
+#history-list .swiper-pagination {
+  width: 100%;
+  height: .556vw;
+  position: absolute;
+  left: 0;
+  top: unset;
+  bottom: 0;
+  background-color: #ccc;
+}
+
+#history-list .swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: #23364b;
+}
