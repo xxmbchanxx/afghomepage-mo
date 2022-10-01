@@ -861,6 +861,7 @@
   -webkit-animation: slideText 30s linear infinite;
   -moz-animation: slideText 30s linear infinite;
   animation: slideText 30s linear infinite;
+  
 }
 
 #history-list {
