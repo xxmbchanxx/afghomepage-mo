@@ -214,72 +214,67 @@
   </section>
 
   <script>
-    let a = document.querySelector('.sec01')
-    let b = document.querySelector('.sec02')
-    let c = document.querySelector('.sec03')
-    let d = document.querySelector('.sec04')
-    let e = document.querySelector('.sec05')
-    let f = document.querySelector('.sec06')
-
-    let a1 = document.querySelector('.sec01_bg')
-    let b2 = document.querySelector('.sec02_bg')
-    let c3 = document.querySelector('.sec03_bg')
-    let d4 = document.querySelector('.sec04_bg')
-    let e5 = document.querySelector('.sec05_bg')
-    let f6 = document.querySelector('.sec06_bg')
     
-    console.log(a.offsetTop)
-    console.log(b.offsetTop)
-    console.log(c.offsetTop)
-    console.log(d.offsetTop)
-    console.log(e.offsetTop)
-    console.log(f.offsetTop)
-
     window.addEventListener('scroll', ()=>{
-      let scroll = window.scrollY
-      console.log(scroll)
+      let scroll = window.scrollY;
+      console.log("scroll",scroll)
+
+      let a = document.querySelector('.sec01');
+      let a1 = document.querySelector('.sec01_bg');
+
+      let b = document.querySelector('.sec02');
+      let b1 = document.querySelector('.sec02_bg');
+
+      let c = document.querySelector('.sec03');
+      let c1 = document.querySelector('.sec03_bg');
+
+      let d = document.querySelector('.sec04');
+      let d1 = document.querySelector('.sec04_bg');
+
+      let e = document.querySelector('.sec05');
+      let e1 = document.querySelector('.sec05_bg');
+
+      let f = document.querySelector('.sec06');
+      let f1 = document.querySelector('.sec06_bg');
+
 
       if(scroll > a.offsetTop && scroll < b.offsetTop){
-        a1.style.position = 'fixed';
+        a1.style.position = 'fixed'
       }else {
-        a1.style.position = 'absolute';
+        a1.style.position = 'absolute'
       }
 
       if(scroll > b.offsetTop && scroll < c.offsetTop){
-        b2.style.position = 'fixed';
+        b1.style.position = 'fixed'
       }else {
-        b2.style.position = 'absolute';
+        b1.style.position = 'absolute'
       }
 
       if(scroll > c.offsetTop && scroll < d.offsetTop){
-        c3.style.position = 'fixed';
+        c1.style.position = 'fixed';
       }else {
-        c3.style.position = 'absolute';
+        c1.style.position = 'absolute';
       }
 
-      if(scroll > d.offsetTop && scroll < e.offsetTop){
-        d4.style.position = 'fixed';
+      if(scroll > d.offsetTop && scroll <=e.offsetTop){
+        d1.style.position = 'fixed'
       }else {
-        d4.style.position = 'absolute';
+        d1.style.position = 'absolute'
       }
 
       if(scroll > e.offsetTop && scroll < f.offsetTop){
-        e5.style.position = 'fixed';
+        e1.style.position = 'fixed';
       }else {
-        e5.style.position = 'absolute';
+        e1.style.position = 'absolute';
       }
 
-      if(scroll > f.offsetTop && scroll < f.offsetTop){
-        f6.style.position = 'fixed';
-      }else {
-        f6.style.position = 'absolute';
-      }
-
+      // if(scroll > f.offsetTop &&) {
+      //   f1.style.position = 'fixed';
+      // }else {
+      //   f1.style.position = 'absolute';
+      // }
     })
 
-    
-    
-    
   </script>
 
 

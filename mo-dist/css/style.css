@@ -4640,19 +4640,19 @@ footer .bottom-info .footer-circle .arrow img {
 }
 
 #system-wrap section.sec01 {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
-.sec01_bg{
+.sec01_bg {
   background: url("../img/mo-system-sec1-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: -1;
   top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
 }
 
 #system-wrap section.sec01>i img {
@@ -4665,18 +4665,16 @@ footer .bottom-info .footer-circle .arrow img {
   position: relative;
 }
 
-.sec02_bg{
-background: url("../img/mo-system-sec2-bg.png") center center no-repeat;
-position: absolute;
-display: block;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: cover;
-z-index: -1;
-background-position: center center;
+.sec02_bg {
+  background: url("../img/mo-system-sec2-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
+
 #system-wrap section.sec02>i img {
   width: 44.444vw;
 }
@@ -4687,17 +4685,14 @@ background-position: center center;
   position: relative;
 }
 
-.sec03_bg{
-background: url("../img/mo-system-sec3-bg.png") center center no-repeat;
-position: absolute;
-display: block;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: cover;
-z-index: -1;
-background-position: center center;
+.sec03_bg {
+  background: url("../img/mo-system-sec4-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
 
 #system-wrap section.sec03>i img {
@@ -4710,17 +4705,14 @@ background-position: center center;
   position: relative;
 }
 
-.sec04_bg{
-background: url("../img/mo-system-sec4-bg.png") center center no-repeat;
-position: absolute;
-display: block;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: cover;
-z-index: -1;
-background-position: center center;
+.sec04_bg {
+  background: url("../img/mo-system-sec5-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
 
 #system-wrap section.sec04>i img {
@@ -4733,17 +4725,14 @@ background-position: center center;
   position: relative;
 }
 
-.sec05_bg{
-background: url("../img/mo-system-sec5-bg.png") center center no-repeat;
-position: absolute;
-display: block;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: cover;
-z-index: -1;
-background-position: center center;
+.sec05_bg {
+  background: url("../img/mo-system-sec6-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
 }
 
 #system-wrap section.sec05>i img {
@@ -4756,17 +4745,17 @@ background-position: center center;
   position: relative;
 }
 
-.sec06_bg{
-background: url("../img/mo-system-sec6-bg.png") center center no-repeat;
-position: absolute;
-display: block;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: cover;
-z-index: -1;
-background-position: center center;
+.sec06_bg {
+  background: url("../img/mo-system-sec3-bg.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+#system-wrap section.sec06>i img {
+  width: 77.778vw;
 }
 
 #system-wrap section>i {
@@ -4807,7 +4796,7 @@ background-position: center center;
   font-size: 5vw;
   font-weight: 500;
   color: #fff;
-  text-transform:none;
+  text-transform: none;
 }
 
 #studio-wrap {
