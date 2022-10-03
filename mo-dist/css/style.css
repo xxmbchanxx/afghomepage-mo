@@ -4725,6 +4725,7 @@ footer .bottom-info .footer-circle .arrow img {
   font-size: 5vw;
   font-weight: 500;
   color: #fff;
+  text-transform: lowercase;
 }
 
 #studio-wrap {
