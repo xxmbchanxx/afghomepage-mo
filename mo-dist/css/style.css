@@ -4807,7 +4807,7 @@ background-position: center center;
   font-size: 5vw;
   font-weight: 500;
   color: #fff;
-  text-transform: lowercase;
+  text-transform:none;
 }
 
 #studio-wrap {
