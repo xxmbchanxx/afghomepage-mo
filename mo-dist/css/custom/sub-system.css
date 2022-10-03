@@ -30,8 +30,8 @@
 }
 
 
-#system-wrap section.sec01 {
-  background: url("../img/mo-system-sec1-bg.png") center center/100% 100% no-repeat fixed;
+#system-wrap section .sec01 {
+  background: url("../img/mo-system-sec1-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec01>i img {
@@ -39,7 +39,7 @@
 }
 
 #system-wrap section.sec02 {
-  background: url("../img/mo-system-sec2-bg.png") center center/100% 100% no-repeat fixed;
+  background: url("../img/mo-system-sec2-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec02>i img {
@@ -47,7 +47,7 @@
 }
 
 #system-wrap section.sec03 {
-  background: url("../img/mo-system-sec4-bg.png") center center/100% 100% no-repeat fixed;
+  background: url("../img/mo-system-sec4-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec03>i img {
@@ -55,7 +55,7 @@
 }
 
 #system-wrap section.sec04 {
-  background: url("../img/mo-system-sec5-bg.png") center center/100% 100% no-repeat fixed;
+  background: url("../img/mo-system-sec5-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec04>i img {
@@ -63,7 +63,7 @@
 }
 
 #system-wrap section.sec05 {
-  background: url("../img/mo-system-sec6-bg.png") center center/100% 100% no-repeat fixed;
+  background: url("../img/mo-system-sec6-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec05>i img {
@@ -71,7 +71,7 @@
 }
 
 #system-wrap section.sec06 {
-  background: url("../img/mo-system-sec3-bg.png") center center/100% 100% no-repeat fixed;
+  background: url("../img/mo-system-sec3-bg.png") center center no-repeat;
 }
 
 #system-wrap section.sec06>i img {

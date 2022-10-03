@@ -122,6 +122,7 @@
 <div id="system-wrap">
 
   <section class="sec01">
+    <div class="sec01_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec1-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -137,6 +138,7 @@
   </section>
 
   <section class="sec02">
+    <div class="sec02_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec2-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -153,6 +155,7 @@
   </section>
 
   <section class="sec03">
+    <div class="sec03_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec3-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -166,6 +169,7 @@
   </section>
 
   <section class="sec04">
+    <div class="sec04_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec4-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -180,6 +184,7 @@
   </section>
 
   <section class="sec05">
+    <div class="sec05_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec5-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -194,6 +199,7 @@
   </section>
 
   <section class="sec06">
+    <div class="sec06_bg"></div>
     <i data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="linear"><img
         src="../../img/mo-system-sec6-icon.png" alt="system icon"></i>
     <p data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="linear">
@@ -207,9 +213,77 @@
     </a>
   </section>
 
+  <script>
+    let a = document.querySelector('.sec01')
+    let b = document.querySelector('.sec02')
+    let c = document.querySelector('.sec03')
+    let d = document.querySelector('.sec04')
+    let e = document.querySelector('.sec05')
+    let f = document.querySelector('.sec06')
+
+    let a1 = document.querySelector('.sec01_bg')
+    let b2 = document.querySelector('.sec02_bg')
+    let c3 = document.querySelector('.sec03_bg')
+    let d4 = document.querySelector('.sec04_bg')
+    let e5 = document.querySelector('.sec05_bg')
+    let f6 = document.querySelector('.sec06_bg')
+    
+    console.log(a.offsetTop)
+    console.log(b.offsetTop)
+    console.log(c.offsetTop)
+    console.log(d.offsetTop)
+    console.log(e.offsetTop)
+    console.log(f.offsetTop)
+
+    window.addEventListener('scroll', ()=>{
+      let scroll = window.scrollY
+      console.log(scroll)
+
+      if(scroll > a.offsetTop && scroll < b.offsetTop){
+        a1.style.position = 'fixed';
+      }else {
+        a1.style.position = 'absolute';
+      }
+
+      if(scroll > b.offsetTop && scroll < c.offsetTop){
+        b2.style.position = 'fixed';
+      }else {
+        b2.style.position = 'absolute';
+      }
+
+      if(scroll > c.offsetTop && scroll < d.offsetTop){
+        c3.style.position = 'fixed';
+      }else {
+        c3.style.position = 'absolute';
+      }
+
+      if(scroll > d.offsetTop && scroll < e.offsetTop){
+        d4.style.position = 'fixed';
+      }else {
+        d4.style.position = 'absolute';
+      }
+
+      if(scroll > e.offsetTop && scroll < f.offsetTop){
+        e5.style.position = 'fixed';
+      }else {
+        e5.style.position = 'absolute';
+      }
+
+      if(scroll > f.offsetTop && scroll < f.offsetTop){
+        f6.style.position = 'fixed';
+      }else {
+        f6.style.position = 'absolute';
+      }
+
+    })
+
+    
+    
+    
+  </script>
+
+
 </div>
-
-
           <!--// icr 작업영역 -->
       </div>
 
