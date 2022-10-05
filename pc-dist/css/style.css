@@ -2774,8 +2774,8 @@ footer .bottom-info .footer-circle .circle {
   font-size: 48px;
   font-weight: 400;
   color: #161616;
-  /* -webkit-animation: textLoop 10s linear infinite;
-  -moz-animation: textLoop 10s linear infinite; */
+  -webkit-animation: textLoop 10s linear infinite;
+  -moz-animation: textLoop 10s linear infinite;
   animation: textLoop 10s linear infinite;
 }
 
