@@ -7339,6 +7339,10 @@ footer .bottom-info .footer-circle .circle {
   font-size: 24px;
 }
 
+.sec04-text-wrap {
+  text-transform: uppercase;
+}
+
 #studio-wrap .sec02 .title-map-wrap .text-wrap .dl-wrap dl:not(:last-child) {
   margin-bottom: 15px;
 }

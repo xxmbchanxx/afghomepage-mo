@@ -234,24 +234,24 @@
     <div class="scene-wrap" id="scene-wrap01">
       <div class="sec02-bg-wrap">
         <p>
-          <span class="txt1">어센틱플래너는 다양한 금융분야의 전문가로서, 고객의 라이프 스타일에 맞는</span>
-          <span class="txt2">어센틱플래너는 다양한 금융분야의 전문가로서, 고객의 라이프 스타일에 맞는</span>
+          <span class="txt1">어센틱플래너는 고객의 라이프스타일에 최적화된</span>
+          <span class="txt2">어센틱플래너는 고객의 라이프스타일에 최적화된</span>
         </p>
         <p>
-          <span class="txt1">솔루션을 제공하는 어센틱만의 전문 플래너입니다. 빠르게 급변하는 금융시장</span>
-          <span class="txt2">솔루션을 제공하는 어센틱만의 전문 플래너입니다. 빠르게 급변하는 금융시장</span>
+          <span class="txt1">솔루션을 제공하는 어센틱금융그룹의 특화된 금융 전문가 입니다.</span>
+          <span class="txt2">솔루션을 제공하는 어센틱금융그룹의 특화된 금융 전문가 입니다.</span>
         </p>
         <p>
-          <span class="txt1">속에서 가장 트렌디하고 명확한 정보를 바탕으로, 고객의 신뢰를 핵심가치로 삼아</span>
-          <span class="txt2">속에서 가장 트렌디하고 명확한 정보를 바탕으로, 고객의 신뢰를 핵심가치로 삼아</span>
+          <span class="txt1">빠르게 급변하는 금융시장 속에서 가장 트렌디하고 명확한 정보를 바탕으로</span>
+          <span class="txt2">빠르게 급변하는 금융시장 속에서 가장 트렌디하고 명확한 정보를 바탕으로</span>
         </p>
         <p>
-          <span class="txt1">고객에게 행복하고 안전한 금융생활의 경험을 선사하는</span>
-          <span class="txt2">고객에게 행복하고 안전한 금융생활의 경험을 선사하는</span>
+          <span class="txt1">고객의 성장과 신뢰를 핵심가치로 삼아, 고객에게 행복하고 안전한</span>
+          <span class="txt2">고객의 성장과 신뢰를 핵심가치로 삼아, 고객에게 행복하고 안전한</span>
         </p>
         <p>
-          <span class="txt1">인생의 동반자 역할을 합니다.​</span>
-          <span class="txt2">인생의 동반자 역할을 합니다.​</span>
+          <span class="txt1">금융생활을 선사하는 인생의 동반자 역할을 합니다.​</span>
+          <span class="txt2">금융생활을 선사하는 인생의 동반자 역할을 합니다.​</span>
         </p>
       </div>
     </div>
@@ -279,7 +279,7 @@
             </div>
             <ul class="sec02-text-wrap">
               <li>도전적인 목표 설정​</li>
-              <li>어센틱만의 ‘identity’ 확립​</li>
+              <li>어센틱만의 ‘IDENTITY’ 확립​</li>
               <li>어센틱만의 ‘차별성’ 유지​</li>
               <li>다양한 커리어 패스​</li>
               <li>투명한 윤리 경영</li>
@@ -401,7 +401,7 @@
                 </div>
                 <ul>
                   <li>
-                    <div class="date">2021. 10</div>
+                    <div class="date">2021. 10</div>ㅊ
                     <div class="txt">김해 스튜디오 오픈(김해)​</div>
                   </li>
                   <li>
@@ -811,7 +811,8 @@
     const scene04Height = scene04.innerHeight();
     const leftBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .left-img-wrap');
     const rightBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .right-img-wrap');
-    const slideBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .slide-img-wrap')
+    const slideBox = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .slide-img-wrap');
+    const img = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap .slide-img-wrap img');
     const scene04Text = $('#company-wrap .sec04 .sec04-bg-wrap .inner .sec04-content-wrap h6');
     const op1 = (windowScroll - (scene04Top + (scene04Height * 0.05))) / (scene04Height * 0.05) * (1 - 0) + 0;
     const tr1 = (windowScroll - (scene04Top + (scene04Height * 0.1))) / (scene04Height * 0.7) * (-600 - 100) + 100;
@@ -840,6 +841,12 @@
     } else if (windowScroll < scene04Top + (scene04Height * 0.1)) {
       slideBox.css('transform', `translateY(100vh)`);
     }
+
+    if (window.innerHeight <= 1200) {
+      img.css('margin-bottom', '80vh');
+    }
+
+    
 
 
     // History Slide
