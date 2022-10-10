@@ -759,14 +759,15 @@
         scene03Target.css({
           'transform': `scale(${percent02})`
         })
+
         scene03Item01.addClass('op0');
         scene03Item02.addClass('op0');
       } else if (windowScroll > scene03Top + ((scene03Height - windowHeight) * 0.25) && windowScroll < scene03Top + ((scene03Height - windowHeight) * 0.26)) {
         scene03Target.css({
-          'transform': `scale(70)`
+          'transform': `scale(70)`,
         })
         scene03Target1.css('display', 'block');
-      } else if (windowScroll < scene03Top + ((scene03Height - windowHeight) * 0.125)) {
+      }else if (windowScroll < scene03Top + ((scene03Height - windowHeight) * 0.125)) {
         scene03Target.css({
           'transform': `scale(1)`
         })
@@ -784,6 +785,8 @@
         scene04Target.removeClass('on');
         btnWrap.addClass('op0');
       }
+
+      
 
       // if (windowScroll >= scene03Top + (scene03Height * 0.3) && windowScroll <= scene03Top + (scene03Height * 0.4)) {
       //   scene04Target.css({
