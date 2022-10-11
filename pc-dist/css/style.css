@@ -2801,6 +2801,7 @@ footer .bottom-info .footer-circle .circle {
   transform: translateY(-50%);
 }
 
+
 #main-wrap .sec03 .visual-img {
   width: 100%;
   height: 839px;
@@ -3157,7 +3158,7 @@ footer .bottom-info .footer-circle .circle {
 
 #main-wrap #scene-box-wrap03 {
   width: 100%;
-  height: 3000vh;
+  height: 2500vh;
   position: relative;
 }
 
