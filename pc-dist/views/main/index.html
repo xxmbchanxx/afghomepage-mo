@@ -755,6 +755,17 @@
       const textTarget06 = $('#studio-visual .box-wrap .text-wrap span:nth-child(6)');
       const btnWrap = $('#main-wrap #scene-box-wrap03 .scene-box .sec07 .inner-full .btn-wrap');
 
+      // if(document.querySelector('.sec06').style.display === 'block'){
+      //   scene03.css({
+      //     'height':'1000vh'
+      //   })
+      // }else if(document.querySelector('.sec06').style.display === 'none'){
+      //   scene03.css({
+      //     'height':'1000vh'
+      //   })
+      // }
+
+        console.log(windowScroll)
       if (windowScroll >= scene03Top + ((scene03Height - windowHeight) * 0.125) && windowScroll <= scene03Top + ((scene03Height - windowHeight) * 0.25)) {
         scene03Target.css({
           'transform': `scale(${percent02})`

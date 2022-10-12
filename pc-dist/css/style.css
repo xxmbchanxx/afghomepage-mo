@@ -1770,7 +1770,7 @@ header .inner #logo h1 {
   display: block;
   width: 196px;
   height: 35px;
-  background: url("../img/logo.png") no-repeat center/cover;
+  background: url("../img/logo.svg") no-repeat center/cover;
 }
 
 header .inner .menu .menu-btn {
@@ -1886,7 +1886,7 @@ header.on {
 }
 
 header.on .inner #logo h1 {
-  background: url("../img/logo-on.png") no-repeat center/cover;
+  background: url("../img/logo-on.svg") no-repeat center/cover;
 }
 
 header.on .inner .menu .menu-btn span {
@@ -3158,7 +3158,7 @@ footer .bottom-info .footer-circle .circle {
 
 #main-wrap #scene-box-wrap03 {
   width: 100%;
-  height: 1900vh;
+  height: 1300vh;
   position: relative;
 }
 

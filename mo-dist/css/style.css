@@ -1658,7 +1658,7 @@ header.on {
 }
 
 header.on .inner #logo h1 {
-  background: url("../img/mo-logo-on.png") no-repeat center/cover;
+  background: url("../img/mo-logo-on.svg") no-repeat center/cover;
 }
 
 header.on .inner .menu .menu-btn span {
