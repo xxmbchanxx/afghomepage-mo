@@ -59,7 +59,9 @@ $(document).ready(function () {
         if (a == "javascript: void(0);") {
             return alert('준비중입니다.');
         } else if(a == "javascript:void(1);"){
-            return
+            return ;
+        }else if(a == "/pc-dist/files/resume.docx"){
+            return ;
         }else if ($(this).hasClass('no-motion')){
             window.open($(this).attr('href'))
         } else {
