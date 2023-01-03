@@ -64,8 +64,9 @@
     </div>
   </div>
 
+  <!-- 개인정보처리방침 start -->
   <div class="personal-information-processing-policy">
-    <div id="result">
+    <div id="personal-information-processing-policy-inner">
       
     </div>
   </div>
@@ -76,7 +77,38 @@
       document.querySelector('body').style.overflow = 'auto';
     }
   </script>
-<!--
+  <!-- 개인정보처리방침 end -->
+
+  <!-- 보험대리점등록증 start -->
+  <div class="insurance">
+    <div id="insurance">
+
+    </div>
+  </div>
+
+  <script>
+    function closeTwo(){
+      document.querySelector('.insurance').style.display = 'none';
+      document.querySelector('body').style.overflow = 'auto';
+    }
+  </script>
+  <!-- 보험대리점등록증 end -->
+  <!-- 금융소비자 보호기준 start -->
+  <div class="financial-standards">
+    <div id="financial-standards">
+
+    </div>
+  </div>
+
+  <script>
+    function closeThree(){
+      document.querySelector('.financial-standards').style.display = 'none';
+      document.querySelector('body').style.overflow = 'auto';
+    }
+  </script>
+  <!-- 금융소비자 보호기준 end -->
+
+  <!--
   <div id="loading-bar">
     isLoading ...
   </div>
@@ -985,19 +1017,41 @@
                   <li><a class="no-motion" href="../../files/resume.docx" download>이력서다운(내부용)</a></li>
                     <!-- <li><a href="javascript: void(0);">이용약관</a></li> -->
                     <li><a onclick="openOne()" href="javascript:void(1);">개인정보처리방침</a></li>
-                    <li><a href="javascript: void(0);" class="no-motion">보험대리점등록증</a></li>
-                    <li><a href="javascript: void(0);" class="no-motion">금융소비자보호기준</a></li>
+                    <li><a onclick="openTwo()" href="javascript:void(1);">보험대리점등록증</a></li>
+                    <li><a onclick="openThree()" href="javascript:void(1);">금융소비자보호기준</a></li>
                     <li><a href="javascript: void(0);" class="no-motion">금융소비자보호 내부통제기준</a></li>
                 </ul>
             </div>
 
+            <!-- 개인정보처리방침 script -->
             <script>
               function openOne(){
                 document.querySelector('.personal-information-processing-policy').style.display = 'block'
                 document.querySelector('body').style.overflow = 'hidden';
-                $('#result').load('../sub/personal-information-processing-policy.html')
+                $('#personal-information-processing-policy-inner').load('../sub/personal-information-processing-policy.html')
               }
             </script>
+            <!-- 개인정보처리방침 script -->
+            <!-- 보험대리점등록증 script -->
+            <script>
+              function openTwo(){
+                document.querySelector('.insurance').style.display = 'block'
+                document.querySelector('body').style.overflow = 'hidden';
+                $('#insurance').load('../sub/insurance.html')
+              }
+            </script>
+            <!-- 보험대리점등록증 script -->
+            <!-- 금융소비자보호기준 script -->
+            <script>
+              function openThree(){
+                document.querySelector('.financial-standards').style.display = 'block'
+                document.querySelector('body').style.overflow = 'hidden';
+                $('#financial-standards').load('../sub/financial-standards.html')
+              }
+            </script>
+            <!-- 금융소비자보호기준 script -->
+            
+
             <div class="footer-circle">
                 <button id="top-btn">
                     <span class="arrow"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/big-arrow-top.png" alt="arrow-top"></span>

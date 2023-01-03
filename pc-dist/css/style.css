@@ -10395,6 +10395,12 @@ color: #161616;
   position: relative;
 }
 
+#personal-information-processing-policy-inner .wrap {
+  width: 100%;
+  height: 2874px;
+  padding: 180px 280px !important;
+}
+
 }
 
 @media (max-width:1520px) {
@@ -10677,6 +10683,13 @@ color: #161616;
   height: 100%;
   position: relative;
 }
+
+#personal-information-processing-policy-inner .wrap {
+  width: 100%;
+  height: 2874px;
+  padding: 180px 180px !important;
+}
+
 }
 
 @media (max-width:1320px) {
@@ -10961,6 +10974,13 @@ color: #161616;
   height: 100%;
   position: relative;
 }
+
+#personal-information-processing-policy-inner .wrap {
+  width: 100%;
+  height: 2874px;
+  padding: 180px 80px !important;
+}
+
 }
 
 @media (max-width:1120px) {
@@ -11856,19 +11876,314 @@ color: #161616;
   z-index: 999;
 }
 
+#personal-information-processing-policy-inner .wrap {
+  width: 100%;
+  height: 2874px;
+  padding: 200px 390px;
+}
+
+#personal-information-processing-policy-inner .wrap .title {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+  margin-bottom: 10px;
+}
+
+#personal-information-processing-policy-inner .wrap .date {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+  margin-bottom: 135px;
+}
+
+.normal {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #101010;
+}
+
+.bold {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+}
+
+.grey {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.m-10 {
+  margin-bottom: 10px;
+}
+
+.m-35 {
+  margin-bottom: 35px;
+}
+
+.m-100 {
+  margin-bottom: 100px;
+}
 
 
+#personal-information-processing-policy-inner .wrap .footer {
+  width: 100%;
+  height: 229px;
+  border: 2px solid #DDDDDD;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#personal-information-processing-policy-inner .wrap .footer div:first-child {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #666666;
+  margin-bottom: 10px;
+}
 
+#personal-information-processing-policy-inner .wrap .footer div:last-child {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1526px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #666666;
+}
 
+.insurance {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #EEEEEE;
+  z-index: 999;
+  display: none;
+  overflow: scroll;
+}
 
+#insurance {
+  width: 100%;
+  height: 1571px;
 
+}
 
+#insurance .wrap .title {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+}
 
+#insurance .wrap .title2 {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616; 
+}
 
+#insurance .wrap .footer {
+  width: 100%;
+  height: 229px;
+  border: 2px solid #DDDDDD;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#insurance .wrap {
+  width: 100%;
+  height: 1571px;
+    padding: 200px 353px;
+    position: relative;
+}
 
+#insurance .wrap .footer div:first-child {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #666666;
+  margin-bottom: 10px;
+}
 
+#insurance .wrap .footer div:last-child {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1526px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.financial-standards {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #EEEEEE;
+  z-index: 999;
+  display: none;
+  overflow: scroll;
+}
+
+#financial-standards {
+  width: 100%;
+  height: 6001px;
+}
+
+#financial-standards .wrap {
+  width: 100%;
+  height: 6001px;
+  padding: 200px 390px;
+  text-align: start;
+}
+
+#financial-standards .wrap .title {  
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616; 
+  
+}
+
+#financial-standards .wrap .date {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+  margin-bottom: 135px;
+}
+
+#financial-standards .wrap .sec01 {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161616;
+}
+
+.m-50 {
+ margin-bottom: 50px;
+}
+
+#financial-standards .wrap .footer {
+  width: 100%;
+  height: 229px;
+  border: 2px solid #DDDDDD;
+  position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#financial-standards .wrap {
+  width: 100%;
+  height: 6001px;
+  padding: 200px 353px;
+  position: relative;
+}
+
+#financial-standards .wrap .footer div:first-child {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+#financial-standards .wrap .footer div:last-child {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1526px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #666666;
+}
 
 
 
