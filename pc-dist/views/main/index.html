@@ -27,7 +27,7 @@
   <!-- jquery -->
   <script src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/js/ui/lib/jquery-1.11.1.min.js"></script>
   <script src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/js/ui/lib/parallax.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <!-- Slick Slide -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -50,7 +50,8 @@
 
 
   <!-- bonme script -->
-  <script src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/js/ui/page.js" type="text/javascript"></script>
+  <!-- <script src="https://s3.ap-northeast-2.amazonaws.com/afg.kr/js/ui/page.js" type="text/javascript"></script> -->
+  <script src="../../js/ui/page.js" type="text/javascript"></script>
   
 </head>
 
@@ -63,6 +64,18 @@
     </div>
   </div>
 
+  <div class="personal-information-processing-policy">
+    <div id="result">
+      
+    </div>
+  </div>
+
+  <script>
+    function closeOne(){
+      document.querySelector('.personal-information-processing-policy').style.display = 'none';
+      document.querySelector('body').style.overflow = 'auto';
+    }
+  </script>
 <!--
   <div id="loading-bar">
     isLoading ...
@@ -77,7 +90,7 @@
         <!-- Logo Area Start -->
         <div id="logo">
             <h1>
-                <a href="/" class="ir">AUTHENTIC FINANCIAL GROUP</a>
+                <a href="./index.html" class="ir">AUTHENTIC FINANCIAL GROUP</a>
             </h1>
         </div>
 
@@ -88,44 +101,72 @@
                 <span></span>
             </button>
             <div id="gnb">
+              <div style="display: flex; justify-content:center; align-items: center;">
                 <ul>
+                  <div>
                     <li>
                         <a href="../sub/company.html">
                             <span>01</span>
-                            회사소개
+                            ABOUT
                         </a>
+                    </li>
+                    <li>
+                      <a href="../sub/system.html">
+                          <span>03</span>
+                          SYSTEM
+                      </a>
                     </li>
                     <li>
                         <a href="../sub/collection.html">
                             <span>02</span>
-                            컬렉션
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../sub/system.html">
-                            <span>03</span>
-                            시스템
+                            COLLECTION
                         </a>
                     </li>
                     <li>
                         <a href="../sub/studio.html">
                             <span>04</span>
-                            스튜디오
+                            STUDIO
                         </a>
                     </li>
                     <li>
                         <a href="../sub/news.html">
                             <span>05</span>
-                            뉴스
+                            NEWS
                         </a>
                     </li>
                     <li>
                         <a href="../sub/recruit.html">
                             <span>06</span>
-                            채용
+                            RECRUIT
                         </a>
                     </li>
+                  </div>
                 </ul>
+                <div class="gnb-desc">
+                  <ol>
+                    <li>
+                      <p>주소</p>
+                      <p>서울특별시 성동구 성수일로 6길 53
+                        유원지식산업센터 4층</p>
+                    </li>
+                    <li>
+                      <p>사업자등록번호</p>
+                      <p>626-87-00900</p>
+                    </li>
+                    <li>
+                      <p>대표번호</p>
+                      <p>+82 1566 0428</p>
+                    </li>
+                    <li>
+                      <p>보험대리점등록번호</p>
+                      <p>제2018040001</p>
+                    </li>
+                  </ol>
+                </div>
+
+              </div>
+
+                
             </div>
         </div>
 
@@ -151,8 +192,8 @@
           <img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-title-icon.svg" alt="main-title-icon">
         </div>
         <div class="text">
-          POWERED BY AUTHENTIC EXPERIENCE.<br>
-          COPYRIGHTS 2022 © ALL RIGHTS RESERVED
+          POWERED BY AUTHENTIC EXPERIENCE<br>
+          COPYRIGHTS  © AFG. ALL RIGHTS RESERVED
         </div>
       </div>
     </div>
@@ -175,8 +216,11 @@
                 <div class="img">
                   <a href="../sub/collection.html" class="visual">
                     <video muted class="main-video">
-                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2021FW.mp4" type="video/mp4">
+                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2022SS.mp4" type="video/mp4">
                     </video>
+                    <!-- <video muted class="main-video">
+                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2021FW.mp4" type="video/mp4">
+                    </video> -->
                   </a>
                 </div>
               </div>
@@ -184,8 +228,11 @@
                 <div class="img">
                   <a href="../sub/collection.html" class="visual">
                     <video muted class="main-video">
-                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2021SS.mp4" type="video/mp4">
+                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2021FW.mp4" type="video/mp4">
                     </video>
+                    <!-- <video muted class="main-video">
+                      <source src="https://afg-common.s3-accelerate.amazonaws.com/pc/collection-2021SS.mp4" type="video/mp4">
+                    </video> -->
                   </a>
                 </div>
               </div>
@@ -203,14 +250,17 @@
           <div id="collection-text-slide" class="slide-box swiper">
             <div class="swiper-wrapper">
               <div class="item01 swiper-slide">
-                <div class="text">2022 S/S COLLECTION</div>
+                <div class="text">2022 F/W COLLECTION</div>
               </div>
               <div class="item02 swiper-slide">
-                <div class="text">2021 F/W COLLECTION</div>
+                <div class="text">2022 S/S COLLECTION</div>
               </div>
               <div class="item03 swiper-slide">
-                <div class="text">2021 S/S COLLECTION</div>
+                <div class="text">2021 F/W COLLECTION</div>
               </div>
+              <!-- <div class="item03 swiper-slide">
+                <div class="text">2021 S/S COLLECTION</div>
+              </div> -->
             </div>
           </div>
           <div class="slide-info">
@@ -319,17 +369,17 @@
       </div>
       <div class="box-wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-offset="300">
         <dl>
+          <dt><a href="../sub/collection-detail-case02.html"><img src="https://s3.ap-northeast-2.amazonaws.com/afg.kr/img/img-collection-03.png" alt="img-collection-03"></a></dt>
+          <dd>
+            2022 F/W COLLECTION
+            <span>GAUM, HYATT REGENCY</span>
+          </dd>
+        </dl>
+        <dl>
           <dt><a href="../sub/collection-detail-case01.html"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/img-collection-01.png" alt="img-collection-01"></a></dt>
           <dd>
             2022 S/S COLLECTION
             <span>JEJU, SHINHWA WORLD</span>
-          </dd>
-        </dl>
-        <dl>
-          <dt><a href="../sub/collection-detail-case02.html"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/img-collection-02.png" alt="img-collection-02"></a></dt>
-          <dd>
-            2021 F/W COLLECTION
-            <span>BUSAN, PARK HYATT</span>
           </dd>
         </dl>
       </div>
@@ -362,49 +412,49 @@
                 어센틱금융그룹만의 독창적이고 차별화된 시스템을 갖춘<br>
                 종합금융그룹입니다.
               </span>
-              <a href="../sub/system.html"><span>시스템 보기</span><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/btn-arrow-right-white.png"
+              <a href="../sub/system.html"><span>자세히 보기</span><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/btn-arrow-right-white.png"
                   alt="arrow-right"></a>
             </li>
             <li class="list01">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title1.png" alt="main-sec05-title1"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
             <li class="list02">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title2.png" alt="main-sec05-title2"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
             <li class="list04">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title4.png" alt="main-sec05-title4"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
             <li class="list05">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title5.png" alt="main-sec05-title5"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
             <li class="list06">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title6.png" alt="main-sec05-title6"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
             <li class="list03">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title3.png" alt="main-sec05-title3"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">시스템 보기</a>
+                <a href="javascript: void(0);">자세히 보기</a>
               </div>
             </li>
           </ul>
@@ -437,7 +487,7 @@
                 <div class="item01 item" title="PRIME"></div>
                 <div class="item02 item" title="D-CUBE"></div>
                 <div class="item03 item" title="TONGYEONG"></div>
-                <div class="item04 item" title="CENTUM"></div>
+                <!-- <div class="item04 item" title="CENTUM"></div> -->
                 <div class="item05 item" title="CENTRAL"></div>
                 <div class="item06 item" title="353"></div>
               </div>
@@ -445,7 +495,7 @@
                 <span class="txt1 on">PRIME STUDIO</span>
                 <span class="txt2">D-CUBE STUDIO</span>
                 <span class="txt3">TONGYEONG STUDIO</span>
-                <span class="txt4">CENTUM STUDIO</span>
+                <!-- <span class="txt4">CENTUM STUDIO</span> -->
                 <span class="txt5">CENTRAL STUDIO</span>
                 <span class="txt6">353 STUDIO</span>
               </div>
@@ -461,9 +511,9 @@
             <li>
               <button type="button">TONGYEONG</button>
             </li>
-            <li>
+            <!-- <li>
               <button type="button">CENTUM</button>
-            </li>
+            </li> -->
             <li>
               <button type="button">CENTRAL</button>
             </li>
@@ -556,6 +606,7 @@
           <li><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-partners-logo17.png" alt="main-partners-logo17"></li>
           <li><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-partners-logo18.png" alt="main-partners-logo18"></li>
           <li><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-partners-logo19.png" alt="main-partners-logo19"></li>
+          <li><img src="https://s3.ap-northeast-2.amazonaws.com/afg.kr/img/main-partners-logo20.png" alt="main-partners-logo20"></li>
         </ul>
       </div>
     </div>
@@ -838,12 +889,6 @@
         buttonTarget05.addClass('on');
         textTarget.removeClass('on');
         textTarget05.addClass('on');
-      } else if (windowScroll >= scene03Top + ((scene03Height - windowHeight) * 0.875) && windowScroll < scene03Top + ((scene03Height - windowHeight) * 1)) {
-        scene05Target.css('transform', `translateY(-${scene05TargetHeight * 5}px)`)
-        buttonTarget.removeClass('on');
-        buttonTarget06.addClass('on');
-        textTarget.removeClass('on');
-        textTarget06.addClass('on');
       } else if (windowScroll < scene03Top + ((scene03Height - windowHeight) * 0.375)) {
         scene05Target.css('transform', `translateY(0px)`)
         buttonTarget.removeClass('on');
@@ -851,6 +896,20 @@
         textTarget.removeClass('on');
         textTarget01.addClass('on');
       }
+
+    // } else if (windowScroll >= scene03Top + ((scene03Height - windowHeight) * 0.875) && windowScroll < scene03Top + ((scene03Height - windowHeight) * 1)) {
+    //     scene05Target.css('transform', `translateY(-${scene05TargetHeight * 5}px)`)
+    //     buttonTarget.removeClass('on');
+    //     buttonTarget06.addClass('on');
+    //     textTarget.removeClass('on');
+    //     textTarget06.addClass('on');
+    //   } else if (windowScroll < scene03Top + ((scene03Height - windowHeight) * 0.375)) {
+    //     scene05Target.css('transform', `translateY(0px)`)
+    //     buttonTarget.removeClass('on');
+    //     buttonTarget01.addClass('on');
+    //     textTarget.removeClass('on');
+    //     textTarget01.addClass('on');
+    //   }
 
       buttonTarget01.click(function(){
         $('html').animate({scrollTop : scene03Top + ((scene03Height - windowHeight) * 0.26)}, 0);
@@ -875,6 +934,8 @@
     });
 
   })
+
+  
 </script>
 
 
@@ -882,11 +943,10 @@
       </div>
 
     </div>
-
     <!-- Footer Area Start -->
 <footer>
     <div class="inner">
-
+        
         <!-- Top-info Area Start -->
         <div class="top-info">
             <div class="family-site">
@@ -895,13 +955,13 @@
                     <img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/plus-icon.png" alt="plus-icon">
                 </button>
                 <ul>
-                    <li><a href="javascript: void(0);">어센틱 몰</a></li>
-                    <li><a href="javascript: void(0);">어센틱 에듀</a></li>
-                    <li><a href="javascript: void(0);">어센틱 케어</a></li>
-                    <li><a href="javascript: void(0);">어센틱 테일러드</a></li>
-                    <li><a href="javascript: void(0);">어센틱 라인</a></li>
-                    <li><a href="javascript: void(0);">어센틱 링크</a></li>
-                    <li><a href="javascript: void(0);">어센틱 라운지</a></li>
+                    <li><a href="javascript:void(1);">어센틱 몰</a></li>
+                    <li><a href="javascript:void(1);">어센틱 에듀</a></li>
+                    <li><a href="javascript:void(1);">어센틱 케어</a></li>
+                    <li><a href="javascript:void(1);">어센틱 테일러드</a></li>
+                    <li><a href="javascript:void(1);">어센틱 라인</a></li>
+                    <li><a href="javascript:void(1);">어센틱 링크</a></li>
+                    <li><a href="javascript:void(1);">어센틱 라운지</a></li>
                 </ul>
             </div>
             <div class="sns">
@@ -918,17 +978,26 @@
             <p>
                 <span>주소  서울특별시 성동구 성수일로 6길 53, 유원지식산업센터 4층</span>
                 <span>사업자 등록번호  626-87-00900    대표번호  1566 - 6074</span>
-                <span>보험대리점등록번호 : 제2018040001 | 보험대리점등록증[클릭]</span>
+                <span>보험대리점등록번호 : 제2018040001</span>
             </p>
             <div class="corp-area">
                 <ul>
                   <li><a class="no-motion" href="../../files/resume.docx" download>이력서다운(내부용)</a></li>
-                    <li><a href="javascript: void(0);">이용약관</a></li>
-                    <li><a href="javascript: void(0);">개인정보처리방침</a></li>
-                    <li><a href="javascript: void(0);">금융소비자보호기준</a></li>
-                    <li><a href="javascript: void(0);">금융소비자보호 내부통제기준</a></li>
+                    <!-- <li><a href="javascript: void(0);">이용약관</a></li> -->
+                    <li><a onclick="openOne()" href="javascript:void(1);">개인정보처리방침</a></li>
+                    <li><a href="javascript: void(0);" class="no-motion">보험대리점등록증</a></li>
+                    <li><a href="javascript: void(0);" class="no-motion">금융소비자보호기준</a></li>
+                    <li><a href="javascript: void(0);" class="no-motion">금융소비자보호 내부통제기준</a></li>
                 </ul>
             </div>
+
+            <script>
+              function openOne(){
+                document.querySelector('.personal-information-processing-policy').style.display = 'block'
+                document.querySelector('body').style.overflow = 'hidden';
+                $('#result').load('../sub/personal-information-processing-policy.html')
+              }
+            </script>
             <div class="footer-circle">
                 <button id="top-btn">
                     <span class="arrow"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/big-arrow-top.png" alt="arrow-top"></span>

@@ -50,7 +50,8 @@
 
 
   <!-- bonme script -->
-  <script src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/js/ui/page.js" type="text/javascript"></script>
+  <!-- <script src="https://s3.ap-northeast-2.amazonaws.com/afg.kr/js/ui/page.js" type="text/javascript"></script> -->
+  <script src="../../js/ui/page.js" type="text/javascript"></script>
   
 </head>
 
@@ -77,7 +78,7 @@
         <!-- Logo Area Start -->
         <div id="logo">
             <h1>
-                <a href="/" class="ir">AUTHENTIC FINANCIAL GROUP</a>
+                <a href="../main/index.html" class="ir">AUTHENTIC FINANCIAL GROUP</a>
             </h1>
         </div>
 
@@ -88,44 +89,72 @@
                 <span></span>
             </button>
             <div id="gnb">
+              <div style="display: flex; justify-content:center; align-items: center;">
                 <ul>
+                  <div>
                     <li>
                         <a href="../sub/company.html">
                             <span>01</span>
-                            회사소개
+                            ABOUT
                         </a>
+                    </li>
+                    <li>
+                      <a href="../sub/system.html">
+                          <span>02</span>
+                          SYSTEM
+                      </a>
                     </li>
                     <li>
                         <a href="../sub/collection.html">
-                            <span>02</span>
-                            컬렉션
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../sub/system.html">
                             <span>03</span>
-                            시스템
+                            COLLECTION
                         </a>
                     </li>
                     <li>
                         <a href="../sub/studio.html">
                             <span>04</span>
-                            스튜디오
+                            STUDIO
                         </a>
                     </li>
                     <li>
                         <a href="../sub/news.html">
                             <span>05</span>
-                            뉴스
+                            NEWS
                         </a>
                     </li>
                     <li>
                         <a href="../sub/recruit.html">
                             <span>06</span>
-                            채용
+                            RECRUIT
                         </a>
                     </li>
+                  </div>
                 </ul>
+                <div class="gnb-desc">
+                  <ol>
+                    <li>
+                      <p>주소</p>
+                      <p>서울특별시 성동구 성수일로 6길 53
+                        유원지식산업센터 4층</p>
+                    </li>
+                    <li>
+                      <p>사업자등록번호</p>
+                      <p>626-87-00900</p>
+                    </li>
+                    <li>
+                      <p>대표번호</p>
+                      <p>+82 1566 0428</p>
+                    </li>
+                    <li>
+                      <p>보험대리점등록번호</p>
+                      <p>제2018040001</p>
+                    </li>
+                  </ol>
+                </div>
+
+              </div>
+
+                
             </div>
         </div>
 
@@ -159,7 +188,7 @@
                     <i><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/sub-nav-arrow.png" alt="sub nav arrow"></i>
                     <li class="dep2">
                         <a href="javascript:void(0);">
-                            채용
+                            RECRUIT
                         </a>
                     </li>
                 </ul>
@@ -618,6 +647,12 @@
 
 <script>
     AOS.init();
+
+    if(window.location.pathname == '/pc-dist/views/sub/recruit.html'){
+    document.querySelector("#gnb > div > ul > div > li:nth-child(6) > a").style.color = '#000';
+    document.querySelector("#gnb > div > ul > div > li:nth-child(6) > a").style.textShadow = '-1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF';
+    document.querySelector("#gnb > div > ul > div > li:nth-child(6) > a > span").style.textShadow = 'none';
+  }
 </script>
 
 
@@ -638,13 +673,14 @@
                     <img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/plus-icon.png" alt="plus-icon">
                 </button>
                 <ul>
-                    <li><a href="javascript: void(0);">어센틱 몰</a></li>
-                    <li><a href="javascript: void(0);">어센틱 에듀</a></li>
-                    <li><a href="javascript: void(0);">어센틱 케어</a></li>
-                    <li><a href="javascript: void(0);">어센틱 테일러드</a></li>
-                    <li><a href="javascript: void(0);">어센틱 라인</a></li>
-                    <li><a href="javascript: void(0);">어센틱 링크</a></li>
-                    <li><a href="javascript: void(0);">어센틱 라운지</a></li>
+                    <li><a href="javascript:void(1);">어센틱 에듀</a></li>
+                    <li><a href="javascript:void(1);">어센틱 케어</a></li>
+                    <li><a href="javascript:void(1);">어센틱 라인</a></li>
+                    <li><a href="javascript:void(1);">어센틱 링크</a></li>
+                    <li><a href="javascript:void(1);">어센틱 라운지</a></li>
+                    <li><a href="javascript:void(1);">어센틱 테일러드</a></li>
+                    <li><a href="javascript:void(1);">어센틱 멤버스</a></li>
+                    <li><a href="javascript:void(1);">명인상조</a></li>
                 </ul>
             </div>
             <div class="sns">
@@ -654,20 +690,21 @@
                 </ul>
             </div>
         </div>
-
+    
         <!-- Bottom-info Area Start -->
         <div class="bottom-info">
             <div class="copyright">(주)어센틱금융그룹 © 2022</div>
             <p>
                 <span>주소  서울특별시 성동구 성수일로 6길 53, 유원지식산업센터 4층</span>
                 <span>사업자 등록번호  626-87-00900    대표번호  1566 - 6074</span>
-                <span>보험대리점등록번호 : 제2018040001 | 보험대리점등록증[클릭]</span>
+                <span>보험대리점등록번호 : 제2018040001</span>
             </p>
             <div class="corp-area">
                 <ul>
-                    <li><a class="no-motion" href="../../files/resume.docx" download="이력서양식">이력서다운(내부용)</a></li>
-                    <li><a href="javascript: void(0);">이용약관</a></li>
+                  <li><a class="no-motion" href="../../files/resume.docx" download>이력서다운(내부용)</a></li>
+                    <!-- <li><a href="javascript: void(0);">이용약관</a></li> -->
                     <li><a href="javascript: void(0);">개인정보처리방침</a></li>
+                    <li><a href="javascript: void(0);">보험대리점등록증</a></li>
                     <li><a href="javascript: void(0);">금융소비자보호기준</a></li>
                     <li><a href="javascript: void(0);">금융소비자보호 내부통제기준</a></li>
                 </ul>
@@ -679,7 +716,7 @@
                 </button>
             </div>
         </div>
-
+    
     </div>
 </footer><!-- Footer Area End -->
 

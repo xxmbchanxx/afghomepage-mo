@@ -1,14 +1,12 @@
 // vanilla js
 window.addEventListener('DOMContentLoaded', function () {
 
-
-
     // Footer family-site 
     const familySite = document.querySelector('.family-site');
     const familySiteBtn = document.querySelector('.family-site-btn');
     familySiteBtn.addEventListener('click', function () {
-        // familySite.classList.toggle('on');
-        alert('준비중입니다.')
+        familySite.classList.toggle('on');
+        // alert('준비중입니다.')
     })
 
     /*
