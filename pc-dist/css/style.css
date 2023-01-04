@@ -9831,9 +9831,42 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 840px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
   position: relative;
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 296px;
+  left: 83px;
+}
+
+.lounge-system-sec04-bg .text p:nth-child(1) {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.6301px;
+  line-height: 61px;
+  letter-spacing: -0.01em;
+  text-align: start;
+  color: #FFFFFF;
+  margin-bottom: 25.57px;
+}
+
+.lounge-system-sec04-bg .text p:nth-child(2) {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5497px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #666666;
+  text-align: start;
+  margin-bottom: 61.36px;
 }
 
 .tailored-system-sec04-bg {
@@ -9841,6 +9874,10 @@ color: #161616;
   height: 840px;
   background: url(../img/tailored-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .system-sec04 p {
@@ -9934,7 +9971,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 680px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -10072,11 +10109,10 @@ color: #161616;
 
 .system-goback-btn {
   width: 100%;
-  height: auto;
+  height: 457px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 200px 0;
 }
 
 .system-goback-btn a {
@@ -10250,8 +10286,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 770px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -10310,7 +10347,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 650px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -10399,6 +10436,14 @@ color: #161616;
   width: 100%;
   height: 2874px;
   padding: 180px 280px !important;
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 230px;
+  left: 70px;
 }
 
 }
@@ -10539,8 +10584,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 720px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -10599,7 +10645,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 620px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -10688,6 +10734,14 @@ color: #161616;
   width: 100%;
   height: 2874px;
   padding: 180px 180px !important;
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 220px;
+  left: 60px;
 }
 
 }
@@ -10829,8 +10883,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 670px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -10889,7 +10944,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 590px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -10979,6 +11034,14 @@ color: #161616;
   width: 100%;
   height: 2874px;
   padding: 180px 80px !important;
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 210px;
+  left: 60px;
 }
 
 }
@@ -11121,8 +11184,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 620px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -11181,7 +11245,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 560px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -11266,6 +11330,15 @@ color: #161616;
   height: 100%;
   position: relative;
 }
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 160px;
+  left: 50px;
+}
+
 }
 
 @media (max-width:920px) {
@@ -11405,8 +11478,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 570px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -11465,7 +11539,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 530px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -11555,6 +11629,14 @@ color: #161616;
   top: 118px;
   left: 60%;
 
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  left: 40px;
 }
 }
 
@@ -11702,8 +11784,9 @@ color: #161616;
 .lounge-system-sec04-bg {
   width: 100%;
   height: 510px;
-  background: #000000;
+  background: url(../img/lounge-system-detail-sec03-bg.png) no-repeat 50% center/cover;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .system-sec05 {
@@ -11762,7 +11845,7 @@ color: #161616;
 .myeonginsangzo-system-sec06 {
   width: 100%;
   height: 500px;
-  background: #000000;
+  background:url(../img/myeonginsangzo-system-sec06-bg.png) no-repeat 50% center/cover;
   position: relative;
 }
 
@@ -11836,6 +11919,14 @@ color: #161616;
   width: 720px;
   height: 100%;
   position: relative;
+}
+
+.lounge-system-sec04-bg .text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 110px;
+  left: 40px;
 }
 }
 
@@ -12183,6 +12274,19 @@ color: #161616;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #666666;
+}
+
+.tailored-system-sec04-bg-text {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 72px;
 }
 
 
