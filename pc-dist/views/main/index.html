@@ -107,6 +107,20 @@
     }
   </script>
   <!-- 금융소비자 보호기준 end -->
+  <!-- 금융소비자 내부통제기준 start -->
+  <div class="internal-control-standards">
+    <div id="internal-control-standards">
+
+    </div>
+  </div>
+
+  <script>
+    function closeFour(){
+      document.querySelector('.internal-control-standards').style.display = 'none';
+      document.querySelector('body').style.overflow = 'auto';
+    }
+  </script>
+  <!-- 금융소비자 내부통제기준 end -->
 
   <!--
   <div id="loading-bar">
@@ -451,42 +465,49 @@
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title1.png" alt="main-sec05-title1"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-edu.html">자세히 보기</a>
               </div>
             </li>
             <li class="list02">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title2.png" alt="main-sec05-title2"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-care.html">자세히 보기</a>
               </div>
             </li>
             <li class="list04">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title4.png" alt="main-sec05-title4"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-line.html">자세히 보기</a>
               </div>
             </li>
             <li class="list05">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title5.png" alt="main-sec05-title5"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-link.html">자세히 보기</a>
               </div>
             </li>
             <li class="list06">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title6.png" alt="main-sec05-title6"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-lounge.html">자세히 보기</a>
               </div>
             </li>
             <li class="list03">
               <div class="item">
                 <div class="title"><img src="https://afg-common.s3-accelerate.amazonaws.com/home-pc/img/main-sec05-title3.png" alt="main-sec05-title3"></div>
                 <div class="figure"></div>
-                <a href="javascript: void(0);">자세히 보기</a>
+                <a href="../sub/system-tailored.html">자세히 보기</a>
+              </div>
+            </li>
+            <li class="list07">
+              <div class="item">
+                <div class="title"><img src="https://s3.ap-northeast-2.amazonaws.com/afg.kr/img/main-sec05-title3.png" alt="main-sec05-title7"></div>
+                <div class="figure"></div>
+                <a href="../sub/system-myeonginsangzo.html">자세히 보기</a>
               </div>
             </li>
           </ul>
@@ -1020,7 +1041,7 @@
                     <li><a onclick="openOne()" href="javascript:void(1);">개인정보처리방침</a></li>
                     <li><a onclick="openTwo()" href="javascript:void(1);">보험대리점등록증</a></li>
                     <li><a onclick="openThree()" href="javascript:void(1);">금융소비자보호기준</a></li>
-                    <li><a href="javascript: void(0);" class="no-motion">금융소비자보호 내부통제기준</a></li>
+                    <li><a onclick="openFour()" href="javascript:void(1);"">금융소비자보호 내부통제기준</a></li>
                 </ul>
             </div>
 
@@ -1051,7 +1072,15 @@
               }
             </script>
             <!-- 금융소비자보호기준 script -->
-            
+            <!-- 금융소비자 내부통제기준 script -->
+        <script>
+          function openFour(){
+            document.querySelector('.internal-control-standards').style.display = 'block'
+            document.querySelector('body').style.overflow = 'hidden';
+            $('#internal-control-standards').load('../sub/internal-control-standards.html')
+          }
+        </script>
+        <!-- 금융소비자 내부통제기준 script -->
 
             <div class="footer-circle">
                 <button id="top-btn">

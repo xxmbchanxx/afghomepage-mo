@@ -48,7 +48,76 @@
       <span><img src="https://afg-common.s3-accelerate.amazonaws.com/home-mobile/img/loading-logo.png" alt=""></span>
     </div>
   </div>
+ <!-- 개인정보처리방침 start -->
+ <div class="personal-information-processing-policy">
+  <div id="personal-information-processing-policy-inner">
+    
+    
+  </div>
+  <div class="mo-footer">
+    <div>
+      서울특별시 성동구 성수일로 6길 53, 유원지식산업센터 4층<br>
+      Copyright ⓒ AFG. ALL RIGHTS RESERVED
+    </div>
+</div>
+</div>
 
+<script>
+  function closeOne(){
+    document.querySelector('.personal-information-processing-policy').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+  }
+</script>
+<!-- 개인정보처리방침 end -->
+
+<!-- 보험대리점등록증 start -->
+<div class="insurance">
+  <div id="insurance">
+  
+  </div>
+  <div class="mo-footer">
+    <div>
+        서울특별시 성동구 성수일로 6길 53, 유원지식산업센터 4층<br>
+        Copyright ⓒ AFG. ALL RIGHTS RESERVED
+    </div>
+</div>
+</div>
+
+<script>
+  function closeTwo(){
+    document.querySelector('.insurance').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+  }
+</script>
+<!-- 보험대리점등록증 end -->
+<!-- 금융소비자 보호기준 start -->
+<div class="financial-standards">
+  <div id="financial-standards">
+
+  </div>
+</div>
+
+<script>
+  function closeThree(){
+    document.querySelector('.financial-standards').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+  }
+</script>
+<!-- 금융소비자 보호기준 end -->
+<!-- 금융소비자 내부통제기준 start -->
+<div class="internal-control-standards">
+  <div id="internal-control-standards">
+
+  </div>
+</div>
+
+<script>
+  function closeFour(){
+    document.querySelector('.internal-control-standards').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+  }
+</script>
+<!-- 금융소비자 내부통제기준 end -->
   <div id="wrapper">
 
     <!-- Header Area Start -->
@@ -549,14 +618,17 @@
                 <span>보험대리점등록번호 : 제2018040001 | 보험대리점등록증[클릭]</span>
             </p>
             <div class="corp-area">
-                <ul>
-                    <li><a href="javascript:void(0);">이용약관</a></li>
-                    <li><a href="javascript:void(0);">개인정보처리방침</a></li>
-                </ul>
-                <ul>
-                    <li><a href="javascript:void(0);">금융소비자보호기준</a></li>
-                    <li><a href="javascript:void(0);">금융소비자보호 내부통제기준</a></li>
-                </ul>
+              <ul>
+                <li><a href="../../files/resume.docx" download class="no-motion">이력서다운(내부용)</a></li>
+                <li><a onclick="openOne()" href="javascript:void(1);">개인정보처리방침</a></li>
+            </ul>
+            <ul>
+                <li><a onclick="openTwo()" href="javascript:void(1);">보험대리점등록증</a></li>
+                <li><a onclick="openThree()" href="javascript:void(1);">금융소비자보호기준</a></li>
+            </ul>
+            <ul>
+                <li><a onclick="openFour()" href="javascript:void(1);">금융소비자보호 내부통제기준</a></li>  
+            </ul>
             </div>
             <div class="footer-circle">
                 <a href="javascript:void(0);" id="top-btn">
@@ -564,7 +636,42 @@
                 </a>
             </div>
         </div>
-
+<!-- 개인정보처리방침 script -->
+<script>
+  function openOne(){
+    document.querySelector('.personal-information-processing-policy').style.display = 'block'
+    document.querySelector('body').style.overflow = 'hidden';
+    $('#personal-information-processing-policy-inner').load('../sub/personal-information-processing-policy.html')
+  }
+</script>
+<!-- 개인정보처리방침 script -->
+<!-- 보험대리점등록증 script -->
+<script>
+  function openTwo(){
+    document.querySelector('.insurance').style.display = 'block'
+    document.querySelector('body').style.overflow = 'hidden';
+    $('#insurance').load('../sub/insurance.html')
+  }
+</script>
+<!-- 보험대리점등록증 script -->
+<!-- 금융소비자보호기준 script -->
+<script>
+  function openThree(){
+    document.querySelector('.financial-standards').style.display = 'block'
+    document.querySelector('body').style.overflow = 'hidden';
+    $('#financial-standards').load('../sub/financial-standards.html')
+  }
+</script>
+<!-- 금융소비자보호기준 script -->
+<!-- 금융소비자 내부통제기준 script -->
+<script>
+  function openFour(){
+    document.querySelector('.internal-control-standards').style.display = 'block'
+    document.querySelector('body').style.overflow = 'hidden';
+    $('#internal-control-standards').load('../sub/internal-control-standards.html')
+  }
+</script>
+<!-- 금융소비자 내부통제기준 script -->
     </div>
 </footer><!-- Footer Area End -->
 

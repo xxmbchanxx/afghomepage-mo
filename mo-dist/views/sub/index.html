@@ -168,12 +168,15 @@
             </p>
             <div class="corp-area">
                 <ul>
-                    <li><a href="javascript:void(0);">이용약관</a></li>
-                    <li><a href="javascript:void(0);">개인정보처리방침</a></li>
+                    <li><a href="../../files/resume.docx" download class="no-motion">이력서다운(내부용)</a></li>
+                    <li><a onclick="openOne()" href="javascript:void(1);">개인정보처리방침</a></li>
                 </ul>
                 <ul>
-                    <li><a href="javascript:void(0);">금융소비자보호기준</a></li>
-                    <li><a href="javascript:void(0);">금융소비자보호 내부통제기준</a></li>
+                    <li><a onclick="openTwo()" href="javascript:void(1);">보험대리점등록증</a></li>
+                    <li><a onclick="openThree()" href="javascript:void(1);">금융소비자보호기준</a></li>
+                </ul>
+                <ul>
+                    <li><a onclick="openFour()" href="javascript:void(1);">금융소비자보호 내부통제기준</a></li>  
                 </ul>
             </div>
             <div class="footer-circle">
@@ -182,7 +185,42 @@
                 </a>
             </div>
         </div>
-
+<!-- 개인정보처리방침 script -->
+<script>
+    function openOne(){
+      document.querySelector('.personal-information-processing-policy').style.display = 'block'
+      document.querySelector('body').style.overflow = 'hidden';
+      $('#personal-information-processing-policy-inner').load('../sub/personal-information-processing-policy.html')
+    }
+  </script>
+  <!-- 개인정보처리방침 script -->
+  <!-- 보험대리점등록증 script -->
+  <script>
+    function openTwo(){
+      document.querySelector('.insurance').style.display = 'block'
+      document.querySelector('body').style.overflow = 'hidden';
+      $('#insurance').load('../sub/insurance.html')
+    }
+  </script>
+  <!-- 보험대리점등록증 script -->
+  <!-- 금융소비자보호기준 script -->
+  <script>
+    function openThree(){
+      document.querySelector('.financial-standards').style.display = 'block'
+      document.querySelector('body').style.overflow = 'hidden';
+      $('#financial-standards').load('../sub/financial-standards.html')
+    }
+  </script>
+  <!-- 금융소비자보호기준 script -->
+  <!-- 금융소비자 내부통제기준 script -->
+  <script>
+    function openFour(){
+      document.querySelector('.internal-control-standards').style.display = 'block'
+      document.querySelector('body').style.overflow = 'auto';
+      $('#internal-control-standards').load('../sub/internal-control-standards.html')
+    }
+  </script>
+  <!-- 금융소비자 내부통제기준 script -->
     </div>
 </footer><!-- Footer Area End -->
 

@@ -3,6 +3,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
     console.log(1)
 
+    
+
 })
 
 // jquery
