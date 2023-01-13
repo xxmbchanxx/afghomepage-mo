@@ -6612,6 +6612,7 @@ footer .bottom-info .footer-circle .arrow img {
   font-size: 8.888vw;
   font-weight: 700;
   margin-bottom: 5.55vw;
+  line-height: 11.111vw;
 }
 
 #system-details-wrap .inner .sec02 .sub-title {
@@ -6836,6 +6837,7 @@ footer .bottom-info .footer-circle .arrow img {
   font-style: normal;
   font-weight: 500;
   font-size: 6.111vw;
+  line-height: 8.888vw;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #161616;  
