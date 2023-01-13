@@ -6501,7 +6501,6 @@ footer .bottom-info .footer-circle .arrow img {
 #system-details-wrap .inner .sec01 {
   width: 100%;
   height: auto;
-  margin-bottom: 22.222vw;
 }
 
 #system-details-wrap .inner .sec01 .logo {
@@ -6605,7 +6604,7 @@ footer .bottom-info .footer-circle .arrow img {
 #system-details-wrap .inner .sec02 {
   width: 100%;
   height: auto;
-  padding: 0 5.555vw 22.222vw 5.555vw;
+  padding: 30vw 5.555vw;
 }
 
 #system-details-wrap .inner .sec02 h1 {
