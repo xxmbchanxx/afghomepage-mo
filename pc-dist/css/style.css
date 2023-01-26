@@ -439,10 +439,12 @@ body.isReady .scaleAni {
 }
 
 .title-msg-wrap .title-nav ul li.dep1 a {
+  font-family: "Kumbh Sans",sans-serif;
   font-weight: 400;
 }
 
 .title-msg-wrap .title-nav ul li.dep2 a {
+  font-family: "Kumbh Sans",sans-serif;
   font-weight: 500;
 }
 
@@ -450,6 +452,15 @@ body.isReady .scaleAni {
   font-family: "Kumbh Sans",sans-serif;
   font-size: 14px;
   color: #161616;
+}
+
+.dep1 a, .dep2 a  {
+  font-family: "Kumbh Sans",sans-serif;
+}
+
+.dep3 a {
+  font-family: "Kumbh Sans",sans-serif;
+  font-weight: 500;
 }
 
 #collection-visual {
@@ -10169,7 +10180,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 40px;
-letter-spacing: -0.01em;
+letter-spacing: -0.015em;
 color: #161616;
 }
 
@@ -10199,6 +10210,17 @@ color: #161616;
   height: 100%;
   position: absolute;
   background: url(../img/system-edu-video-thumbnail.png) no-repeat 50% center/cover;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.care-system-sec08-video-thumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/system-care-video-thumbnail.png) no-repeat 50% center/cover;
   top: 0;
   display: flex;
   justify-content: center;
