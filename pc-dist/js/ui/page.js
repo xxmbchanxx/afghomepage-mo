@@ -1,5 +1,7 @@
 
 
+
+
 // vanilla js
 window.addEventListener('DOMContentLoaded', function () {
 
@@ -64,6 +66,7 @@ $(document).ready(function () {
             window.open($(this).attr('href'))
         } else {
             $('header .inner .menu #gnb').hide();
+            $('footer').hide();
             $('#loading-page').addClass('on');
             $('body').addClass('hidden');
             $('body').removeClass('isReady');
@@ -164,3 +167,10 @@ window.addEventListener('load', function () {
         document.body.classList.add('isReady');
      }, 500)
 })
+
+window.addEventListener('load', function () {
+    setTimeout(() => { 
+        document.querySelector('footer').style.opacity = 1;
+     }, 1000)
+})
+

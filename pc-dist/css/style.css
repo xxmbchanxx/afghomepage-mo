@@ -385,7 +385,6 @@ body.isReady .scaleAni {
   background-color: #fff;
   /* min-width: 800px;
   overflow: scroll; */
-  
 }
 
 .pd200 {
@@ -2091,14 +2090,17 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 @keyframes footerOpacity {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  50% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
